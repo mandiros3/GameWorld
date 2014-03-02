@@ -26,8 +26,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 <!-- 	ContentFlow -->
 <!-- 	<link rel="stylesheet" title="Standard" href="../ContentFlow/styles.css" type="text/css" media="screen" /> -->
 
-    <script language="JavaScript" type="text/javascript" src="../../../ContentFlow/contentflow.js"></script>
-<!--     <script language="JavaScript" type="text/javascript" src="../js/magnify.js"></script> -->
+    <script language="JavaScript" type="text/javascript" src="../../../js/ContentFlow/contentflow.js"></script>
+    <script language="JavaScript" type="text/javascript" src="../../../js/magnify.js"></script>
     
     <script tyle="text/javascript">
         var cf = new ContentFlow('contentFlow', {reflectionColor: "#000000"});
@@ -99,45 +99,49 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 			}
          
          
-         /*
-Credits:
-https://github.com/marcaube/bootstrap-magnify
-*/
-
-.mag {
-    width:200px;
-    margin: 0 auto;
-    float: none;
-}
-    
-.mag img {
-    max-width: 100%;
-}
-        
-  
-
-.magnify {
-    position: relative;
-    cursor: none
-}
-
-.magnify-large {
-    position: absolute;
-    display: none;
-    width: 175px;
-    height: 175px;
-
-    -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-       -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
-    
-    -webkit-border-radius: 100%;
-       -moz-border-radius: 100%;
-             border-radius: 100%
-}
+			/*
+			Credits:
+			https://github.com/marcaube/bootstrap-magnify
+			*/
+			
+			.mag {
+			    width:200px;
+			    margin: 0 auto;
+			    float: none;
+			}
+			    
+			.mag img {
+			    max-width: 100%;
+			}
+			        
+			  
+			
+			.magnify {
+			    position: relative;
+			    cursor: none
+			}
+			
+			.magnify-large {
+			    position: absolute;
+			    display: none;
+			    width: 175px;
+			    height: 175px;
+			
+			    -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+			       -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+			            box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+			    
+			    -webkit-border-radius: 100%;
+			       -moz-border-radius: 100%;
+			             border-radius: 100%
+			}
          
          
-         
+         #logo{
+	         maring-bot: 25 px;
+	
+	         
+         }
          
          
          }
@@ -148,15 +152,10 @@ https://github.com/marcaube/bootstrap-magnify
 
       <!--  custom CSS here -->
       <link rel="stylesheet" href="../../../css/main.css">
-<!--       <link rel="stylesheet" href="../css/bootstrap.vertical-tabs.css"> -->
-      <!--Javascript responsible for responsivness -->
-
 
       <script src="../../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
    </head>
    <body>
-      <!--[if lt IE 7]>
-          <p class="chromeframe">You are using an <strong>outdated</strong> browser.
       Please <a href="http://browsehappy.com/">upgrade your browser</a> or 
       <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
       <![endif]-->
@@ -173,7 +172,7 @@ https://github.com/marcaube/bootstrap-magnify
                      <span class="icon-bar"></span>
                   </button>
                   <a class="navbar-brand logo-nav" href="../../../index.html">
-                     <img class="img-responsive" src="../../../images/Logo/gameworld.png"  alt="logo">
+                     <img class="img-responsive" src="../../../img/index/logo.png"  alt="logo" id="logo">
                   </a>
                </div>
                <div class="navbar-collapse collapse">
@@ -204,9 +203,12 @@ https://github.com/marcaube/bootstrap-magnify
 		 <div class="container"><div class="row"><div class="col-lg-12">
 		 
 		 
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
     
-    <!-- ===== FLOW ===== -->
+    <!-- ===== COVER FLOW ===== -->
+    
+    
+    
     <div id="contentFlow" class="ContentFlow">
         <!-- should be place before flow so that contained images will be loaded first -->
         <div class="loadIndicator"><div class="indicator"></div></div>
@@ -214,45 +216,45 @@ https://github.com/marcaube/bootstrap-magnify
         <div class="flow">
 
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/1.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/1.jpg"class="img-rounded"/>
                 <div class="caption">pic0: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/2.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/2.jpg"class="img-rounded"/>
                 <div class="caption">pic1: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/3.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/3.jpg"class="img-rounded"/>
                 <div class="caption">pic2: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/4.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/4.jpg"class="img-rounded"/>
                 <div class="caption">pic1: some stripes</div>
             </div>
 
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/5.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/5.jpg"class="img-rounded"/>
                 <div class="caption">pic0: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/6.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/6.jpg"class="img-rounded"/>
                 <div class="caption">pic1: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/7.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/7.jpg"class="img-rounded"/>
                 <div class="caption">pic2: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/8.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/8.jpg"class="img-rounded"/>
                 <div class="caption">pic1: some stripes</div>
             </div>
 
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/9.jpg"class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/9.jpg"class="img-rounded"/>
                 <div class="caption">pic0: some stripes</div>
             </div>
             <div class="item">
-                <img class="content" src="../images/gameworld/nebula/10.jpg" class="img-rounded"/>
+                <img class="content" src="../../../img/nebula/9.jpg" class="img-rounded"/>
                 <div class="caption">pic1: some stripes</div>
             </div>
 
@@ -276,205 +278,79 @@ https://github.com/marcaube/bootstrap-magnify
 		 	
 		 </div>
 
-
-
-<div class="container">
-	
-</div>
-
-
-
-
-
-
-
-        <div class="container"><div class="row"><div class="col-md-8 col-md-offset-2">
-        
-        
-        
-        
-        
-
-			
-				
-				
-				
-				
-				
-								<!--
-				How To Get Nestopedia Running On Your Windows <br />
-				
-				   * Download : Nestopia <br />
-				   * Option > Input … > Set All > Start pressing on your PS2 remote.<br />
-				
-				
-				
-				  1. Suck That You Have To Configure Every Time You Run The Apps.<br />
-				  2. The Input Setting Is Not Stay As Deafult As Nebula <br />
-				  3. Only Read The .nes File In Side ROM.NES Folder.
-				-->
-
-
-	        
-        </p>
-        
-        
-        
-        	
-        </div>
-        	
-        </div>
-        	
-        </div>
-        
-        
-        
-        
-
-        <div class="container"><div class="row"><div class="col-lg-12">
-        	
-        	 
-        	 
-        	 
-        	 
-     <!-- required for floating -->
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs tabs-left">
-      <li class="active"><a href="#home" data-toggle="tab">Requirement</a></li>
-      <li><a href="#profile" data-toggle="tab">Steps</a></li>
-      <li><a href="#messages" data-toggle="tab">Details</a></li>
-      <li><a href="#settings" data-toggle="tab">Help</a></li>
-      <li><a href="#settings" data-toggle="tab">Contact</a></li>
-    </ul>
-</div>
-
-<div class="col-xs-9">
-    <!-- Tab panes -->
-    <div class="tab-content">
-      <div class="tab-pane active" id="home">
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
 <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-	      <p>
+<hr>
+
+	      
+                   
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ===== Magnify Photo ===== -->       
         
-       			<br />
-				<br />
-				
-
-	      
-	      
-	      
-  <div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="well well-sm">
-                <div class="row">
-                    <div class="col-xs-3 col-md-3 text-center">
-                        <img src="../images/gameworld/prereq/1.png" alt="bootsnipp"
-                            class="img-rounded img-responsive" />
-                    </div>
-                    <div class="col-xs-9 col-md-9 section-box">
-                        <h2>
-                            Computers
-                            <a href="http://bestbuy.com/" class="btn btn-default btn-success btn-xs active" target="_blank"><span class="glyphicon glyphicon-new-window"></span> Link</a>
-                           
-                        </h2>
-                        <p>
-                            Any kind of computers </p>
-                        <hr />
-                   </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 <div class="container">
+
+
     <div class="row">
-        <div class="col-md-6">
-            <div class="well well-sm">
-                <div class="row">
-                    <div class="col-xs-3 col-md-3 text-center">
-                        <img src="../images/gameworld/prereq/2.png" alt="bootsnipp"
-                            class="img-rounded img-responsive" />  
-                    </div>
-                    <div class="col-xs-9 col-md-9 section-box">
-                        <h2>
-                            PS2 Controller 
+    
+        <div class="col-md-4">
+            <div class="mag">
+                 <h2>
+                   Computers
+                    <a href="http://bestbuy.com/" class="btn btn-default btn-success btn-xs active" target="_blank"><span class="glyphicon glyphicon-new-window"></span> Link</a>
+                           
+                        </h2><br>
+                <img data-toggle="magnify" src="../../../img/prereq/1.png" alt="">
+            </div>
+        </div><!--/span-->
+        
+        
+        <div class="col-md-4">
+            <div class="mag">
+                 <h2>
+                            Controller <br />
                              <a href="http://www.ebay.com/itm/black-twin-shock-game-controller-joypad-for-sony-playstation-2-ps2-/111217527330?pt=US_Video_Game_Controllers&hash=item19e514ca22" class="btn btn-default btn-success btn-xs active" target="_blank" ><span class="glyphicon glyphicon-new-window"></span> Link</a>
 
                             
                             
-                        </h2>
-                        <p>
-                            Any kind of controllers is fine like : NES , or SNES just make sure to buy the right adapter for it. </p>
-                        <hr />
-                   </div>
-
-                </div>
+                        </h2>                
+       
+                <img data-toggle="magnify" src="../../../img/prereq/2.png" alt="">
             </div>
-        </div>
-    </div>
-</div>
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-            <div class="well well-sm">
-                <div class="row">
-                    <div class="col-xs-3 col-md-3 text-center">
-                        <img src="../images/gameworld/prereq/3.png" alt="bootsnipp"
-                            class="img-rounded img-responsive" />
-                    </div>
-                    <div class="col-xs-9 col-md-9 section-box">
-                        <h2>
-                            Adapters 
+        </div><!--/span-->
+        
+        <div class="col-md-4">
+            <div class="mag">
+           <h2>
+                            Adapters <br>
                             <a href="http://www.ebay.com/itm/PS1-PS2-PSX-to-PC-USB-Dual-Controller-Adapter-Converter-/170854914674?pt=US_Video_Game_Cables_Adapters&hash=item27c7bf1a72" class="btn btn-default btn-success btn-xs active" target="_blank"><span class="glyphicon glyphicon-new-window"></span> Link</a>
                             
                             
                            
                         </h2>
-                        <p>
-                            Make sure buy the right one.</p>
-                        <hr />
-                   </div>
-
-                </div>
+                <img data-toggle="magnify" src="../../../img/prereq/3.png" alt="">
             </div>
-        </div>
-    </div>
-</div>
+        </div><!--/span-->
+ 
 
+    </div><!--/row-->
+    <hr>
+    <br>
+    <br>
+    <br>
+    
+ </div> 
+
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ===== Steps ===== -->      
       
-      </div>
-      
-<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->      
-      
-      <div class="tab-pane" id="profile">
 <br><br><br><br>
 				
 <div class="stepwizard">
     <div class="stepwizard-row">
         <div class="stepwizard-step">
+        
+        
+        
             <button type="button" class="btn btn-primary btn-circle">1</button>
             <p>Emulator</p>
         </div>
@@ -493,15 +369,17 @@ https://github.com/marcaube/bootstrap-magnify
         <div class="stepwizard-step">
             <button type="button" class="btn btn-default btn-circle">5</button>
             <p>Enjoy :) </p>
-        </div> 
+        </div>
     </div>
 </div>
-				
-				
-				<br><br><hr><br><br>
-      </div>
-      <div class="tab-pane" id="messages">
-	      
+
+<br><br><br><br> <hr> <br><br><br><br>		 
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ===== Steps ===== -->  
+<!--
+<div class="container"><div class="row"><div class="col-lg-8">
+	
 	      1.Get The Emulator = The Console To Load Roms<br />
 				<br />
 				<br />
@@ -553,110 +431,454 @@ https://github.com/marcaube/bootstrap-magnify
 				<br />
 				<a href="http://www.gamefaqs.com/neo/565680-kabuki-klash/faqs/46729"> http://www.gamefaqs.com/neo/565680-kabuki-klash/faqs/46729 </a>
 				<br />
-				<br />
+				<br />	
+	
+	
+	
+	</div>
+-->
 
-	      
-	      
-      </div>
-      <div class="tab-pane" id="settings">
-	      Q: I Can't Get The Game To Run ? <br />
-	      A: Did You Install The Bio Yet ? If Not - Please Do So.<br />
-	      		Here Is File. <br />
-	      <br />
-	      Q: Do We Need To Unzip The Rom After Download ?<br />
-	      A: No, You Don't Need To, Just Place Them In The Rom Folder. <br />
-	      <br />
-	      Q: How Do I Configure The Controller To Work With Nebula ? <br />
-	      A: First, You Need An Adapter And A PS2 Controller Or Any Other Type Of Controller. 
-	      		
-      </div>
-    </div>
-</div>          	
-        	
-        	
-        	
-        	
-        	
-        	
+
+<div class=WordSection1>
+
+<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 0in 0in 0in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:
+"Helvetica Neue";color:#262626'>1.Get The Emulator <o:p></o:p></span></b></p>
+
+</div>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-pagination:
+none;mso-list:l2 level1 lfo1;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Download Nebula Latest <span class=GramE>Version <span
+style="mso-spacerun:yes">&nbsp;</span></span><a
+href="http://nebula.emulatronia.com/descargas.php"><span style='color:#3576BE;
+text-decoration:none;text-underline:none'>http://nebula.emulatronia.com/descargas.php
+-- (V:2.25b) </span></a><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-pagination:
+none;mso-list:l2 level1 lfo1;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Install Nebula <span style="mso-spacerun:yes">&nbsp;</span><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 0in 0in 0in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:
+"Helvetica Neue";color:#262626'>2. Get The <span class=SpellE>Roms</span><o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 0in 0in 0in'><span style='font-size:14.0pt;
+font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+<p class=MsoListParagraph style='text-indent:-.25in;mso-pagination:none;
+mso-list:l1 level1 lfo2;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Download <span class=SpellE>Roms</span> <span class=GramE>at <span
+style="mso-spacerun:yes">&nbsp;</span></span><a
+href="http://www.romnation.net/srv/roms/mame103.html"><span style='color:#3576BE;
+text-decoration:none;text-underline:none'>http://www.romnation.net/srv/roms/mame103.html</span></a>
+<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 0in 0in 0in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:
+"Helvetica Neue";color:#262626'>3. Place the downloaded <span class=SpellE>roms</span>
+in the right place as well as bio <o:p></o:p></span></b></p>
+
+</div>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-pagination:
+none;mso-list:l1 level1 lfo2;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>You should see a <b style='mso-bidi-font-weight:normal'>ROM</b>
+folder inside your Nebula Folder after installing Nebula<o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-pagination:
+none;mso-list:l1 level1 lfo2;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Put all the downloaded <span class=SpellE>roms</span> in the ROM
+folder<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;mso-add-space:auto;
+text-indent:-.25in;mso-pagination:none;mso-list:l1 level2 lfo2;mso-layout-grid-align:
+none;text-autospace:none'><![if !supportLists]><span style='font-size:14.0pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#262626'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>IMPORTANT</span></b><span style='font-size:14.0pt;font-family:
+"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";color:#262626'>: </span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:green'>Neogeo.zip</span><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'> &amp; </span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#FF6600'>PGM.zip</span><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'> are bio zips and they
+must stay inside <b style='mso-bidi-font-weight:normal'>ROM</b> Folder <span
+class=SpellE>also<span class=GramE>,otherwise</span></span> You Will Get Error<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 0in 0in 0in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:
+"Helvetica Neue";color:#262626'>4. Configure the Controller <o:p></o:p></span></b></p>
+
+</div>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraphCxSpFirst style='text-indent:-.25in;mso-pagination:
+none;mso-list:l0 level1 lfo3;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Load The Game First <span style="mso-spacerun:yes">&nbsp;</span><o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='text-indent:-.25in;mso-pagination:
+none;mso-list:l0 level1 lfo3;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+class=SpellE><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'>Goto</span></span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'> <b style='mso-bidi-font-weight:normal'>Game</b> </span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:green'>&gt;</span><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'> <b style='mso-bidi-font-weight:
+normal'>Configure Controls</b> </span><span style='font-size:14.0pt;font-family:
+"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";color:green'>&gt;</span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'> <b style='mso-bidi-font-weight:normal'>Player 1</b> <o:p></o:p></span></p>
+
+<p class=MsoListParagraphCxSpLast style='text-indent:-.25in;mso-pagination:
+none;mso-list:l0 level1 lfo3;mso-layout-grid-align:none;text-autospace:none'><![if !supportLists]><span
+style='font-size:14.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#262626'><span style='mso-list:Ignore'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>In <b style='mso-bidi-font-weight:normal'>Main Controls Box</b> </span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:green'>&gt; </span><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'>Highlight The Key First </span><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:green'>&gt; </span><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'>And Start Pressing
+Whatever You Want It to be on the controller </span><span style='font-size:
+14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:green'>&gt; </span><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'>Save It.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><!--[if gte vml 1]><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="Picture_x0020_1" o:spid="_x0000_s1026" type="#_x0000_t75"
+ style='position:absolute;margin-left:57pt;margin-top:10.05pt;width:146pt;
+ height:190pt;z-index:-251658240;visibility:visible;mso-wrap-style:square;
+ mso-width-percent:0;mso-height-percent:0;mso-wrap-distance-left:9pt;
+ mso-wrap-distance-top:0;mso-wrap-distance-right:9pt;
+ mso-wrap-distance-bottom:0;mso-position-horizontal:absolute;
+ mso-position-horizontal-relative:text;mso-position-vertical:absolute;
+ mso-position-vertical-relative:text;mso-width-percent:0;mso-height-percent:0;
+ mso-width-relative:page;mso-height-relative:page'>
+ <v:imagedata src="Nebula_files/image001.png" o:title=""/>
+</v:shape><![endif]--><![if !vml]><span style='mso-ignore:vglayout;position:
+absolute;z-index:251658238;margin-left:57px;margin-top:10px;width:148px;
+height:192px'><img width=148 height=192 src="Nebula_files/image002.png" v:shapes="Picture_x0020_1"></span><![endif]><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoListParagraph style='margin-left:1.0in;mso-add-space:auto;
+text-indent:-.25in;mso-pagination:none;mso-list:l0 level2 lfo3;mso-layout-grid-align:
+none;text-autospace:none'><![if !supportLists]><span style='font-size:14.0pt;
+font-family:"Courier New";mso-fareast-font-family:"Courier New";color:#262626'><span
+style='mso-list:Ignore'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+</span></span></span><![endif]><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'>For future references,
+Make Sure To Save Your Input Configuration So You Can Load It On A Different
+Rom so that you don’t have to configure your controller on every single <span
+class=SpellE>roms</span> before you play. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<div style='mso-element:para-border-div;border:none;border-top:solid windowtext 1.0pt;
+mso-border-top-alt:solid windowtext .5pt;padding:1.0pt 0in 0in 0in'>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none;border:none;mso-border-top-alt:solid windowtext .5pt;
+padding:0in;mso-padding-alt:1.0pt 0in 0in 0in'><b style='mso-bidi-font-weight:
+normal'><span style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:
+"Helvetica Neue";color:#262626'>5. Tips<o:p></o:p></span></b></p>
+
+</div>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Rescan <span class=SpellE>ROms</span>:</span></b><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'> Will Scan All The <span class=SpellE>Roms</span> In Side Your <span
+class=SpellE>Roms</span> Folder. For the one you have, it will display as green<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b style='mso-bidi-font-weight:normal'><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'>Cheat Code <o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><a
+href="http://www.gamefaqs.com/neo/565680-kabuki-klash/faqs/46729"><span
+style='color:#3576BE;text-decoration:none;text-underline:none'>http://www.gamefaqs.com/
+</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:none;
+mso-layout-grid-align:none;text-autospace:none'><span style='font-size:14.0pt;
+font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal align=center style='text-align:center;mso-pagination:none;
+mso-layout-grid-align:none;text-autospace:none'><span style='font-size:14.0pt;
+font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:red'>Q:</span></b><b><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'> I can’t get my load my <span class=SpellE>roms</span>. What did
+I do <span class=GramE>wrong ?</span> <o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626;mso-bidi-font-weight:bold'>A:
+Did You Install The Bio <span class=GramE>Yet ?</span> If Not - Please Do So.<o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:red'>Q:</span></b><b><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'> Do We Need To Unzip The Rom After Download?<o:p></o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626;mso-bidi-font-weight:bold'>A:
+No, You Don't Need To, Just Place Them In The Rom Folder. <o:p></o:p></span></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal style='mso-pagination:none;mso-layout-grid-align:none;
+text-autospace:none'><b><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:red'>Q:</span></b><b><span
+style='font-size:14.0pt;font-family:"Helvetica Neue";mso-bidi-font-family:"Helvetica Neue";
+color:#262626'> How Do I Configure The Controller To Work With <span
+class=GramE>Nebula ?</span> <o:p></o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-size:14.0pt;font-family:"Helvetica Neue";
+mso-bidi-font-family:"Helvetica Neue";color:#262626;mso-bidi-font-weight:bold'>A:
+First, You Need An Adapter And A PS2 Controller Or Any Other Type Of Controller
+is fine. Then, you just need to follow the step 4 in the detail instruction.<o:p></o:p></span></p>
+
+<p class=MsoNormal><o:p>&nbsp;</o:p></p>
+
+</div>	
+	
+<!--
+	<div class="col-lg-4">
+        <div class="span12">
+    		<div class="thumbnail center well well-small text-center">
+                <h2>Newsletter</h2>
+                
+                <p>Subscribe to our weekly Newsletter and stay tuned.</p>
+                
+                <form action="" method="post">
+                    <div class="input-prepend"><span class="add-on"><i class="icon-envelope"></i></span>
+                        <input type="text" id="" name="" placeholder="your@email.com">
+                    </div>
+                    <br />
+                    <input type="submit" value="Subscribe Now!" class="btn btn-large" />
+              </form>
+            </div>    
         </div>
-        	
-        </div>
-        	
-        </div>
-        
-        
-        
-        
-        
-        
-        
-<div class="container">
+	</div>
 
-    <div class="row">
-               <hr>
-    </div>
+-->
+
+</div></div>
 
 
-    <div class="row">
-    
-        <div class="col-md-4">
-            <div class="mag">
-                iPhone<br>
-                <img data-toggle="magnify" src="http://i.imgur.com/1fgr2IO.jpg" alt="">
-            </div>
-        </div><!--/span-->
-        
-        
-        <div class="col-md-4">
-            <div class="mag">
-                Lion<br>
-                <img data-toggle="magnify" src="http://i.imgur.com/kzGVqbd.jpg" alt="">
-            </div>
-        </div><!--/span-->
-        
-        <div class="col-md-4">
-            <div class="mag">
-                Mixer<br>
-                <img data-toggle="magnify" src="http://i.imgur.com/YZ7AGyF.jpg" alt="">
-            </div>
-        </div><!--/span-->
  
-
-    </div><!--/row-->
-    <hr>
-    <br>
-    <br>
-    <br>
-    
- </div> <!-- / .container -->
-       
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-
-
-
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+<!-- ===== Footer ===== -->  
          <hr>
 
          <footer>

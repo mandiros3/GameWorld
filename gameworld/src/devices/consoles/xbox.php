@@ -9,6 +9,8 @@ and open the template in the editor.
 		<title>Xbox One</title>
 		<meta charset="windows-1252">
 		<meta name="viewport" content="width=device-width">
+                
+                
 		<link rel="stylesheet" href="../../../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../../css/bootstrap-theme.min.css">
 

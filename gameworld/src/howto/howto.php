@@ -40,7 +40,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 				<section class="row">
 					<div class="col-lg-12">
 						<h1> Featured devices:</h1>
-						<a href="nebula/howto.html"><p> Nebula</p></a>
+						<a href="nebula/nebula_howto.php"><p> Nebula</p></a>
 
 					</div>
 

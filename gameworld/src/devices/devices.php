@@ -73,7 +73,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 										Microsoft
 									</li>
 									<li>
-										<a href="">Xbox One</a>
+										<a href="consoles/xbox.php">Xbox One</a>
 									</li>
 									<li>
 										<a href="">Xbox 360</a>

@@ -145,7 +145,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
                   <h2>Xbox One</h2>
 
                   <img src="img/index/xbox.jpg" alt="..." class="img-rounded">
-                  <p><a class="btn btn-info" href="#">See more &raquo;</a></p>
+                  <p><a class="btn btn-info" href="src/devices/consoles/xbox.php">See more &raquo;</a></p>
                </div>
                <div class="col-lg-4">
                   <h2>PS4</h2>

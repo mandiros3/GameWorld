@@ -56,7 +56,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
              <li><a href="src/devices/devices.php">Devices</a></li>
-            <li><a href="src/howto/nebula/howto.html">How To</a></li>
+            <li><a href="src/howto/howto.php">How To</a></li>
             <li><a href="#contact">Forum</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>

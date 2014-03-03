@@ -9,8 +9,6 @@ and open the template in the editor.
 		<title>Xbox One</title>
 		<meta charset="windows-1252">
 		<meta name="viewport" content="width=device-width">
-                
-                
 		<link rel="stylesheet" href="../../../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../../css/bootstrap-theme.min.css">
 
@@ -19,8 +17,7 @@ and open the template in the editor.
 	</head>
 	<body>
 		<?php
-		include '../../../php/includes/navbar.php';
- ?>
+		include '../../../php/includes/navbar.php';?>
 
 		<!--the page is divided into two columns 10 and 2 units wide -->
 		<div class="container device-page">

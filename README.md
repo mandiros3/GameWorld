@@ -1,4 +1,8 @@
-GameWorld_Andi
+GameWorld
 ==============
+This website was designed and developped by:
 
-Hello Jesse, It's up and running
+Andi Milhomme
+Bunlong Heng
+Sereyrath Nov
+

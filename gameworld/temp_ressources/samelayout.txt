@@ -1,0 +1,23 @@
+Same layout, different content solution. Use PHP, or JSON . Server side include. 
+
+
+
+
+
+
+
+<html>
+  <head>
+    <title>Display User</title>
+  </head>
+  <body>
+    <?php
+      // Write all the queries here, by using $_GET to fetch the content
+      // from the url. You might also want to include the user id in the url.
+      // Finally, fetch the rows as $row = ...
+    ?>
+    Name: <?php echo $row['name']; ?><br /><br />
+    Date: <?php // Do what you want with the date here ?><br /><br />
+    <img src="<?php echo $row['imglocation']; // Change this parameter to fit your needs" />
+  </body>
+</html>

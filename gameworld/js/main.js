@@ -1,3 +1,13 @@
+
+/*sign in dropdown */
+
+$('.dropdown-toggle').dropdown();
+         $('.dropdown-menu').find('form').click(function(e) {
+            e.stopPropagation();
+         });
+
+/*Registration page */
+
 $(function () {
     $('.button-checkbox').each(function () {
 

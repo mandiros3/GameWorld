@@ -20,31 +20,14 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
       <!-- Bootstrap core CSS -->
       <link rel="stylesheet" href="../../css/bootstrap.min.css">
-
-
-      <style>
-
-
-         body {
-            padding-top: 50px;
-            padding-bottom: 20px;
-         }
-      </style>
       <link rel="stylesheet" href="../../css/bootstrap-theme.min.css">
 
       <!--  custom CSS here -->
       <link rel="stylesheet" href="../../css/main.css">
-      <!--Javascript responsible for responsivness -->
-
-
-      <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    
    </head>
    <body>
-      <!--[if lt IE 7]>
-          <p class="chromeframe">You are using an <strong>outdated</strong> browser.
-      Please <a href="http://browsehappy.com/">upgrade your browser</a> or 
-      <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-      <![endif]-->
+     
 
       <div class="wrapper"> 
 
@@ -190,21 +173,17 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 
       </div> <!--wrapper-->
-
+  <!--Javascript dependencies and other libraries such as jquery UI-->
       <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.10.1.min.js"><\/script>')</script>
+      <script>window.jQuery || document.write('<script src="../../js/vendor/jquery-1.10.1.min.js"><\/script>');</script>
+      <script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
+      <!--Javascript responsible for responsivness -->
       <script src="../../js/vendor/bootstrap.min.js"></script>
+      <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
+      <!-- custom javascript-->
       <script src="../../js/main.js"></script>
-
-      <script>
-         var _gaq = [['_setAccount', 'UA-XXXXX-X'], ['_trackPageview']];
-         (function(d, t) {
-            var g = d.createElement(t), s = d.getElementsByTagName(t)[0];
-            g.src = '//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g, s)
-         }(document, 'script'));
-      </script>
+     
    </body>
 </html>

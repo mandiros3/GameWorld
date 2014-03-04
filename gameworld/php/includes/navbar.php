@@ -18,8 +18,7 @@
 		
 		$base ='http://weblab.cs.uml.edu/~bheng/gameworld' ;
 
-}	
-	
+
 
 echo"<!--     Navigation bar starts here. -->
             

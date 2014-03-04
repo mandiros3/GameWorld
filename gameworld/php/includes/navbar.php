@@ -1,9 +1,29 @@
 <?php
 
+$whitelist = array(
+    '127.0.0.1',
+    '::1'
+);
 
-$base= 'http://localhost'; // this is the base/root folder, no need to worry about ../..
+// use the $base variable inside your anchor tags     
 
-// use the $base variable inside your anchor tags        possible use for $_SERVER['DOCUMENT_ROOT']
+// I figured, I should have two cases, if it's running on your local machine, it will use
+// localhost, else it will use the CS server with your user name
+
+
+if( in_array( $_SERVER['REMOTE_ADDR'], $whitelist) )
+{
+    $base= 'http://localhost'; // this is the base/root folder, no need to worry about ../..
+}
+else 
+	{
+	
+	// Guys change URL to match your username
+		
+		$base= 'http://www.cs.uml.edu/~amilhomm/gameworld'; 
+		
+	}
+
 
 echo"<!--     Navigation bar starts here. -->
             

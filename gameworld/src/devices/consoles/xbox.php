@@ -17,8 +17,7 @@ and open the template in the editor.
 	</head>
 	<body>
 		<?php
-		include '../../../php/includes/navbar.php';?>
-
+			include '../../../php/includes/navbar.php'; ?>
 		<!--the page is divided into two columns 10 and 2 units wide -->
 		<div class="container device-page">
 			<section class="row">

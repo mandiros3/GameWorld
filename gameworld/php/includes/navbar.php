@@ -16,24 +16,9 @@
 		
 		//$base= 'http://www.cs.uml.edu/~amilhomm/gameworld'; 
 		
-		
-		
-$whitelist = array(
-    '127.0.0.1',
-    '::1'
-);
+		$base ='http://weblab.cs.uml.edu/~bheng/gameworld' ;
 
-if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
-   $base='http://localhost';
-}
-
-else {
-	
-	
-	$base ='http://weblab.cs.uml.edu/~bheng/gameworld' ;
-
-}
-		
+}	
 	
 
 echo"<!--     Navigation bar starts here. -->

@@ -31,7 +31,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 		<div class="wrapper">
 
-			<?php include('../../php/includes/navbar.php') ?>
+			<?php require("../../php/includes/navbar.php"); ?>
 
 			<!--content starts here-->
 

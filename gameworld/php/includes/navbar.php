@@ -1,9 +1,5 @@
 <?php
 
-$whitelist = array(
-    '127.0.0.1',
-    '::1'
-);
 
 // use the $base variable inside your anchor tags     
 
@@ -11,19 +7,34 @@ $whitelist = array(
 // localhost, else it will use the CS server with your user name
 
 
-if( in_array( $_SERVER['REMOTE_ADDR'], $whitelist) )
-{
-    $base= 'http://localhost'; // this is the base/root folder, no need to worry about ../..
-}
-else 
-	{
+
+
+    // this is the base/root folder, no need to worry about ../..
+
 	
 	// Guys change URL to match your username
 		
-		$base= 'http://www.cs.uml.edu/~amilhomm/gameworld'; 
+		//$base= 'http://www.cs.uml.edu/~amilhomm/gameworld'; 
 		
-	}
+		
+		
+$whitelist = array(
+    '127.0.0.1',
+    '::1'
+);
 
+if(!in_array($_SERVER['REMOTE_ADDR'], $whitelist)){
+   $base='http://localhost';
+}
+
+else {
+	
+	
+	$base ='http://weblab.cs.uml.edu/~bheng/gameworld' ;
+
+}
+		
+	
 
 echo"<!--     Navigation bar starts here. -->
             

@@ -52,7 +52,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
    
    <div class="row">
       
-       <a style="text-align: center;" class="navbar-brand logo-nav" href="../../index.html">
+       <a style="text-align: center;" class="navbar-brand logo-nav" href="../../index.php">
           <img class="img-responsive" src="../../img/index/logo.png" alt="logo">
           </a>
       
@@ -122,7 +122,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 	<div class="modal-dialog modal-lg">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">ï¿½</button>
 				<h4 class="modal-title" id="myModalLabel">Terms & Conditions</h4>
 			</div>
 			<div class="modal-body">

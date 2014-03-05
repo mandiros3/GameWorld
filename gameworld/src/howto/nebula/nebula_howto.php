@@ -134,7 +134,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 				<section class= "row">
 					<div class=col-lg-12>
 						
-				 <h1 class=side-title sty> Requirements</h1>
+				 <h1 class="well well-sm" > Requirements</h1>
 					
 				</div>
 				</section>
@@ -193,7 +193,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 										<a href="#tab2" data-toggle="tab">FAQ</a>
 									</li>
 									<li>
-										<a href="#tab3" data-toggle="tab">Contact <em style="color:red;"> (Registered users only)</em></a>
+										<a href="#tab3" data-toggle="tab">Contact <!-- <em style="color:red;"> (Registered users only)</em> --></a>
 									</li>
 
 								</ul> </span>
@@ -361,27 +361,27 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 								<div class="tab-pane" id="tab2">
 
 									<p>
-										<b>Q: I can’t get my load my roms. What did I do wrong ?</b>
+										<b>Q: I can’t load my roms. What did I do wrong ?</b>
 									</p>
 
 									<p>
-										A: Did You Install The Bio Yet ? If Not - Please Do So.
+										A: Did you install the bio yet ? If not, please do so.
 									</p>
 
 									<p>
-										<b>Q: Do we need to unZIP the ROM after download?</b>
+										<b>Q: Do we need to unzip the ROM after download them?</b>
 									</p>
 
 									<p>
-										A: No, You Don't Need To, Just Place Them In The Rom Folder.
+										A: No, you don't need to. You just need to place them in the right folder.
 									</p>
 
 									<p>
-										<b>Q: How Do I Configure The Controller To Work With Nebula ?</b>
+										<b>Q: How do I configure the controller to work with Nebula ?</b>
 									</p>
 
 									<p>
-										A: First, you need an adapter and a PS2 controller or any other type of controller is fine. Then, you just need to follow the fourth step in the details tab.
+										A: First, you need an adapter and a PS2 controller or any other type of controller is fine. Then, you just need to follow the fourth step in the details. tab.
 									</p>
 								</div>
 								<div class="tab-pane" id="tab3">
@@ -396,21 +396,20 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 													<br>
 													<strong>Email:</strong><a href="mailto:#"> Bunlong_Heng@student.uml.edu</a>
 													<br>
-													<strong>Phone:</strong> (978)677-XXXX
+													<strong>Phone:</strong> (978)677-0861
 												</address>
 												<address>
 													<strong>Andi Milhhome</strong>
 													<br>
 													<strong>Email:</strong><a href="mailto:#"> Andi_Milhhome@student.uml.edu</a>
 													<br>
-													<strong>Phone:</strong> (617)820-XXXX
-												</address>
+													<strong>Phone:</strong> (617)820-3596												</address>
 												<address>
 													<strong>Sereyrath Nov</strong>
 													<br>
 													<strong>Email:</strong><a href="mailto:#"> Sereyrath_Nov@student.uml.edu</a>
 													<br>
-													<strong>Phone:</strong>(781)215-XXXX
+													<strong>Phone:</strong>(781)215-3158
 												</address>
 
 											</div>

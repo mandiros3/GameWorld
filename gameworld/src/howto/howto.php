@@ -40,11 +40,67 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 				<section class="row">
 					<div class="col-lg-12">
 						<h1> Featured devices:</h1>
-						<a href="nebula/nebula_howto.php"><p> Nebula</p></a>
+<!-- 						<a href="nebula/nebula_howto.php"><p> Nebula</p></a> -->
 
 					</div>
 
 				</section>
+
+<!-- References: https://github.com/fancyapps/fancyBox -->
+<link rel="stylesheet" href="//frontend.reklamor.com/fancybox/jquery.fancybox.css" media="screen">
+<script src="//frontend.reklamor.com/fancybox/jquery.fancybox.js"></script>
+
+<div class="container">
+	<div class="row">
+		<div class='list-group gallery'>
+            
+            
+            <div class='col-sm-8 col-xs-12 col-md-6 col-lg-6'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="nebula/nebula_howto.php">
+                    <img class="img-responsive" alt="" src="../../img/howto/Nebula.jpg" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Nebula</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+           
+            <div class='col-sm-8 col-xs-12 col-md-6 col-lg-6'>
+                <a class="thumbnail fancybox" rel="ligthbox" href="http://placehold.it/300x320.png">
+                    <img class="img-responsive" alt="" src="../../img/howto/Nes.jpg" />
+                    <div class='text-right'>
+                        <small class='text-muted'>Nestopedia</small>
+                    </div> <!-- text-right / end -->
+                </a>
+            </div> <!-- col-6 / end -->
+            
+            
+            
+            
+       </div> <!-- list-group / end -->
+	</div> <!-- row / end -->
+</div> <!-- container / end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 				
 			<hr>

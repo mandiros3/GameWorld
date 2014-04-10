@@ -131,13 +131,14 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 				<hr>
 				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-				<section class= "row">
-					<div class=col-lg-12>
-						
-				 <h1 class="well well-sm" > Requirements</h1>
-					
-				</div>
-				</section>
+				<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="panel panel-primary">
+							<div class="panel-heading">
+								<h3 class="panel-title">Requirements</h3>
+								
+							</div>
 				
 				<!-- ===== Magnify Photo ===== -->
 				<div class="container">
@@ -271,13 +272,12 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									<p>
 										· Install Nebula
 									</p>
+									
 									<br>
 									<br>
-									<br>
-									<br>
+						
 									<hr>
-									<br>
-									<br>
+							
 									<br>
 									<br>
 
@@ -288,17 +288,20 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									<p>
 										· Download Roms at <a href="http://www.romnation.net/srv/roms/mame103.html" target="_blank" >http://www.romnation.net/srv/roms/mame103.html</a>
 									</p>
+									
 									<p>
+									
+									<a href="#" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove"></span> Warning</a>
+									
+									
 										Please only download the roms that you own.
 									</p>
 
 									<br>
 									<br>
-									<br>
-									<br>
+						
 									<hr>
-									<br>
-									<br>
+							
 									<br>
 									<br>
 
@@ -319,11 +322,9 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									</p>
 									<br>
 									<br>
-									<br>
-									<br>
+						
 									<hr>
-									<br>
-									<br>
+							
 									<br>
 									<br>
 

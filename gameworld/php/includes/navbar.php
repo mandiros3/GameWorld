@@ -16,7 +16,7 @@
 		
 		//$base= 'http://www.cs.uml.edu/~amilhomm/gameworld'; 
 		
-		$base ='http://weblab.cs.uml.edu/~bheng/gameworld' ;
+		$base ='http://weblab.cs.uml.edu/~amilhomm/gameworld' ;
 
 
 

@@ -96,9 +96,8 @@ and open the template in the editor.
 					<h2 class="side-title"> What's new?</h2>
 
 					<p>
-						Microsoft's push to take over the living room,
-						the Xbox One places a bigger than ever importance on entertainment in addition to gaming.
-						It uses voice recognition to control live TV and switch between apps or games,
+						
+						The Xbox one uses voice recognition to control live TV and switch between apps or games,
 						and the new Kinect sensor enables gestures to control content, even displaying
 						apps side-by-side in Snap Mode like in Windows 8. The Xbox One features an in-game DVR feature to
 						record and share game footage from the system's built-in 500GB HDD,

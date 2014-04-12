@@ -73,25 +73,13 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
           
              <!--To conserve space, the sign in button will use a dropdown menu-->
              
-            <a  class="btn btn-success dropdown-toggle" 
-                data-toggle="dropdown" href="#" role="button">Sign in <b class="caret"> </b></a>
-             <div class="dropdown-menu"> 
-             <form style="margin: 0px" accept-charset="UTF-8" action="/sessions" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
-                   <input name="authenticity_token" type="hidden"></div>
-                 <fieldset class='textbox' style="padding:10px">
-                   <input style="margin-top: 8px" type="text" placeholder="Username" />
-                   <input style="margin-top: 8px" type="password" placeholder="Passsword" />
-                   <input class="btn-primary" name="commit" type="submit" value="Log In" />
-                   <p>Remember Me <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" /> </p>
-                   
-                 </fieldset>
-                <a href="#"> <span class=label>Forgot password? </span></a>
-               </form>
-             </div>
-             
-             
-              <a  class="btn btn-warning" href="src/register/register.php" role="button">Register</a>
+            <a  class="btn btn-success" href="src/register/login.php" role="button">Log In</a>
+
+               
+            <a  class="btn btn-warning" href="src/register/register.php" role="button">Register</a>
+
           </div>
+
         </div><!--/.navbar-collapse -->
       </div>
     </nav>  <!-- End of Navigation bar -->

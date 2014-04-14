@@ -150,12 +150,12 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
                <div class="col-lg-4">
                   <h2>PS4</h2>
                   <img src="img/index/ps4.jpg" alt="..." class="img-rounded">
-                  <p><a class="btn btn-info" href="#">See more &raquo;</a></p>
+                  <p><a class="btn btn-info" href="src/devices/consoles/ps4.php">See more &raquo;</a></p>
                </div>
                <div class="col-lg-4">
                   <h2>Wii U</h2>
                   <img src="img/index/wiu.jpg" alt="..." class="img-rounded">
-                  <p><a class="btn btn-info" href="#">See more  &raquo;</a></p>
+                  <p><a class="btn btn-info" href="src/devices/consoles/wiu.php">See more  &raquo;</a></p>
                </div>
 
             </section> <!--well-->

@@ -47,7 +47,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 				<section class="row devices-list " style="text-align:center;">
 					<div class="col-lg-4">
-						<div class="panel panel-warning">
+						
+						<div class="panel panel-danger">
 							<div class="panel-heading">
 								<h3 class="panel-title">Consoles</h3>
 							</div>
@@ -55,7 +56,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 								<ul style="list-style-type: none;">
 									<a href="#" class="btn btn-xs btn-warning">Sony</a><br>
 									<li>
-										<a href="">PlayStation4</a>
+										<a href="consoles/ps4.php">PlayStation4</a>
 									</li>
 									<li>
 										<a href="">PlayStation3</a>
@@ -91,7 +92,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 									<a href="#" class="btn btn-xs btn-danger">Nintendo
 									</a><br>										
 									<li>
-										<a href="">Wii U</a>
+										<a href="consoles/wiu.php">Wii U</a>
 									</li>
 									<li>
 										<a href="">Wii</a>
@@ -127,7 +128,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 					</div>
 					<div class="col-lg-4">
-						<div class="panel panel-info">
+						<div class="panel panel-success">
 							<div class="panel-heading">
 								<h3 class="panel-title">Handhelds</h3>
 							</div>
@@ -149,7 +150,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 						</div>
 					</div>
 					<div class="col-lg-4">
-						<div class="panel panel-success">
+						<div class="panel panel-info">
 							<div class="panel-heading">
 								<h3 class="panel-title">PC</h3>
 							</div>

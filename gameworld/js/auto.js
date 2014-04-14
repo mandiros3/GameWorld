@@ -7,26 +7,20 @@
 
             $(function() {
                 var availableTags = [
-                    "MAME",
-                    "NES",
-                    "NeoGeo",
-                    "NeogeoPocket",
-                    "PlayStation (1st gen.)",
-                    "PlayStation 2",
-                    "PlayStation 3",
                     "PlayStation 4",
 					"PS4",
-                    "SNES",
+					"Sony",
                     "Xbox One",
-                    "Xbox 360",
-                    "Xbox (1st gen.)",
+                    "Microsoft",
                     "Wii U",
                     "Wii",
-					"Nintendo",
-                    
+					"Nintendo"    
                 ];
+                
+                
                 $("#tags").autocomplete({
                     source: availableTags
                 });
             });
   
+

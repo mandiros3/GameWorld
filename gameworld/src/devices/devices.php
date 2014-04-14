@@ -1,6 +1,6 @@
 <!-- This is the project: Gameworld.
 
-authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
+authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 
 -->
 

@@ -46,7 +46,7 @@ if(!$_SESSION['UserName']){
 					<div class="col-lg-3">
 						<h1>Welcome <?php echo $_SESSION['UserName']; ?>   </h1>
 						
-						<img src="img/profile/homer.jpg" alt="..." class="img-rounded">
+						<img src="../../img/profile/homer.jpg" alt="..." class="img-rounded">
 							
 					</div>
 					

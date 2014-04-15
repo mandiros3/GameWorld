@@ -34,12 +34,13 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 			<?php require("../../php/includes/navbar.php"); ?>
 
 			<!--content starts here-->
-
+            <br>
 			<div class="container">
 
 				<section class="row">
 					<div class="col-lg-12">
-						<h1 style="text-align:center;">Select your favorite device</h1>
+						<h1 style="text-align:center;" id="header">Select your favorite device</h1>
+						<br>
 
 					</div>
 
@@ -150,7 +151,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 						</div>
 					</div>
 					<div class="col-lg-4">
-						<div class="panel panel-info">
+						<div class="panel panel-info" style="height:166px; width:360px;">
 							<div class="panel-heading">
 								<h3 class="panel-title">PC</h3>
 							</div>

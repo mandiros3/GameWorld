@@ -79,8 +79,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
              <form style="margin: 0px" accept-charset="UTF-8" action="/sessions" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
                    <input name="authenticity_token" type="hidden"></div>
                  <fieldset class='textbox' style="padding:10px">
-                   <input style="margin-top: 8px" type="text" placeholder="Username" />
-                   <input style="margin-top: 8px" type="password" placeholder="Passsword" />
+                   <input style="margin-top: 8px" type="text" placeholder="Username" name="UserName" />
+                   <input style="margin-top: 8px" type="password" placeholder="Passsword" name="Password" />
                    <input class="btn-primary" name="commit" type="submit" value="Log In" />
                    <p>Remember Me <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" /> </p>
                    
@@ -136,26 +136,26 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
                <div class="col-lg-12">
 
                   <h1 style='text-align: center; color:red;'>What's hot</h1>
-
+<hr class="featurette-divider">
                </div>
 
 
                <div class="col-lg-4">
 
-                  <h2>Xbox One</h2>
+                  <h2 class="hot">Xbox One</h2>
 
                   <img src="img/index/xbox.jpg" alt="..." class="img-rounded">
                   <p><a class="btn btn-info" href="src/devices/consoles/xbox.php">See more &raquo;</a></p>
                </div>
                <div class="col-lg-4">
-                  <h2>PS4</h2>
+                  <h2 class="hot">PS4</h2>
                   <img src="img/index/ps4.jpg" alt="..." class="img-rounded">
-                  <p><a class="btn btn-info" href="src/devices/consoles/ps4.php">See more &raquo;</a></p>
+                  <p class="chaud"><a class="btn btn-info" href="src/devices/consoles/ps4.php">See more &raquo;</a></p>
                </div>
                <div class="col-lg-4">
-                  <h2>Wii U</h2>
+                  <h2 class="hot" >Wii U</h2>
                   <img src="img/index/wiu.jpg" alt="..." class="img-rounded">
-                  <p><a class="btn btn-info" href="src/devices/consoles/wiu.php">See more  &raquo;</a></p>
+                  <p style ="text-align: right;"><a class="btn btn-info" href="src/devices/consoles/wiu.php">See more  &raquo;</a></p>
                </div>
 
             </section> <!--well-->
@@ -186,3 +186,4 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
       
    </body>
 </html>
+<?php require("../../php/includes/signin.php"); ?>

@@ -32,7 +32,7 @@ body {
 }
 .navbar { 
 font-size: 20px;
-min-height: 63px;
+
 
 }
 
@@ -80,19 +80,6 @@ width: 550px;
 
 margin-left:100px;
 margin-right:100px;
-}
-
-.hot {
-	font-weight:bold;
-	text-align:center;
-	
-	
-}
-
-.chaud {
-	text-align:center;
-		
-	
 }
 
 

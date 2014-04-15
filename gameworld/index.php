@@ -113,7 +113,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
                         <div class="input-group search-bar">
                            <input type="text" class="form-control" id="tags">
                            <span class="input-group-btn">
-                              <button class="btn btn-danger" type="button">Go!</button>
+                              <button class="btn btn-danger" type="button"><span class="glyphicon glyphicon-search"></button>
                            </span>
                         </div>
 

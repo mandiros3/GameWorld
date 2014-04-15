@@ -5,7 +5,7 @@
  */
 
 
-            $(function() {
+        /*    $(function() {
                 var availableTags = [
                     "PlayStation 4",
 					"PS4",
@@ -23,4 +23,38 @@
                 });
             });
   
+
+*/
+
+var source = [ { value: "src/devices/consoles/ps4.php",
+                 label:"PlayStation 4"
+               },
+               { value: "src/devices/consoles/ps4.php",
+                 label:"PS4"
+               },
+               { value: "src/devices/consoles/ps4.php",
+                 label:"Sony"
+               },
+                { value: "src/devices/consoles/xbox.php",
+                 label:"Xbox One"
+               },
+               { value: "src/devices/consoles/xbox.php",
+                 label:"Microsoft"
+               },
+                { value: "src/devices/consoles/wiu.php",
+                 label:"Nintendo"
+              },
+              { value: "src/devices/consoles/wiu.php",
+                 label:"Wii U"
+               }
+               
+             ];
+
+    $("input#tags").autocomplete({
+        source: source,
+        select: function( event, ui ) { 
+            window.location.href = ui.item.value;
+        }
+    });
+
 

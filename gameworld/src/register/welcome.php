@@ -100,4 +100,3 @@ if(!$_SESSION['UserName']){
 <h3 align='right'><a href='logout.php'>Logout Here</a></h3>
 </body>
 </html>
-

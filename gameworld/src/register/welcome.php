@@ -51,47 +51,53 @@ if(!$_SESSION['UserName']){
 
 <body>
 
- <div class="wrapper">
-			<?php require("../../php/includes/navbar.php"); ?>
+ <!--     Navigation bar starts here. -->
+            
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+           <a class="navbar-brand logo-nav" href="index.php">
+          <img class="img-responsive" src="img/index/logo.png" alt="logo">
+          </a>
+        </div>
+         
+         <!--if the screen is small, it will collapse into a button with menu-->
+        <div class="navbar-collapse collapse">
 
-			<div class="container">
-				<br>
-				<div class="row">
-     
+          <ul class="nav navbar-nav">
+             <li><a href="src/devices/devices.php">Devices</a></li>
+            <li><a href="src/howto/howto.php">How To</a></li>
+            <li><a href="#contact">Forum</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">Services</li>
+                <li><a href="#">Repair</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Shop</a></li>
+              </ul>
+            </li>
+          </ul>
+           
+          <!-- Login/Register Button --> 
+          <div class="navbar-form navbar-right">   
+            <a  class="btn btn-success" href="src/register/login.php" role="button">Log In</a>     
+            <a  class="btn btn-warning" href="src/register/register.php" role="button">Register</a>
+          </div>
+
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>  <!-- End of Navigation bar -->
 
 <b><br>Welcome<br></b>
 
 <font color='red' size='4'><?php echo $_SESSION['UserName']; ?></font>
 <h3 align='right'><a href='logout.php'>Logout Here</a></h3>
-
-
-
-</div>
-				</div>
-					</div>
-
-			<hr>
-
-			<footer>
-				<p>
-					&copy; GameWorld 2014
-				</p>
-			</footer>
-
-			<!--Javascript dependencies and other libraries such as jquery UI-->
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-			<script>
-				window.jQuery || document.write('<script src="../../js/vendor/jquery-1.10.1.min.js"><\/script>');
-			</script>
-			<script src="../../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-
-			<!--Javascript responsible for responsivness -->
-			<script src="../../js/vendor/bootstrap.min.js"></script>
-			<script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-
-			<!-- custom javascript-->
-			<script src="../../js/main.js"></script>
-
 </body>
 </html>
 

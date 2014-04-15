@@ -5,7 +5,7 @@
 authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 
 -->
-<php
+<?php
 session_start(); 
 ?>
 
@@ -98,6 +98,5 @@ session_start();
 	</body>
 </html>
 
-<?php require("../../php/includes/signinphp");
-?>
+<?php require("../../php/includes/signin.php"); ?>
 

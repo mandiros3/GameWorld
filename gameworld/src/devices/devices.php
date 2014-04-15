@@ -26,6 +26,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 		<!--  custom CSS here -->
 		<link rel="stylesheet" href="../../css/main.css">
 
+
 	</head>
 	<body>
 
@@ -48,12 +49,12 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 				</section>
 
-				<section class="row devices-list " style="text-align:center;">
+				<section class="row devices-list " style="text-align:center; padding-bottom: 250px;">
 					<div class="col-lg-4">
 
 						<div class="panel panel-danger" style="height:187px; width:360px;">
 							<div class="panel-heading">
-								<h3 class="panel-title"> <span class="label label-danger">Microsoft </span></h3>
+								<h3 class="panel-title"><span class="label label-danger">Microsoft </span></h3>
 							</div>
 							<div class="panel-body">
 								<ul style="list-style-type: none;">
@@ -61,13 +62,12 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 									<li>
 										<a href="consoles/xbox.php">Xbox One</a>
 									</li>
-									<li>
-										<a href="">Xbox 360</a>
+									<li class="disabled">
+										<a href="#">Xbox 360</a>
 									</li>
 									<li>
 										<a href="">Xbox</a>
 									</li>
-
 
 								</ul>
 							</div>
@@ -82,7 +82,6 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 							<div class="panel-body">
 								<ul style="list-style-type: none;">
 
-					
 									<li>
 										<a href="consoles/ps4.php">PlayStation4</a>
 									</li>

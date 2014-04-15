@@ -275,7 +275,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									
 									<p>
 									
-									<a href="#" class="btn btn-sm btn-danger"><span class="glyphicon glyphicon-remove"></span> Warning</a>
+									<p><span class="label label-danger glyphicon glyphicon-remove"> Warning</span>  </p>
 									
 									
 										Please only download the roms that you own.

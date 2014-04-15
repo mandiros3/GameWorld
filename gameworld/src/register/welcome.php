@@ -44,7 +44,7 @@ if(!$_SESSION['UserName']){
 				<br>
 				<section class="row">
 					<div class="col-lg-3">
-						<h1>Welcome <?php echo $_SESSION['UserName']; ?>   </h1>
+						<h1 style="color:#FF0000;">Welcome <?php echo $_SESSION['UserName']; ?>   </h1>
 						
 						<img src="../../img/profile/homer.jpg" alt="..." class="img-rounded">
 							
@@ -54,7 +54,7 @@ if(!$_SESSION['UserName']){
 						
 						<h2> Under development</h2>
 						
-						<a href='logout.php'>Logout Here</a></h3>
+						<a class='pull-right' href='logout.php'>Logout Here</a></h3>
 					</div>
 						
 				</section>

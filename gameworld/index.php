@@ -74,9 +74,9 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
              <!--To conserve space, the sign in button will use a dropdown menu-->
              
             <a  class="btn btn-success dropdown-toggle" 
-                data-toggle="dropdown" href="#" role="button">Sign in <b class="caret"> </b></a>
+                data-toggle="dropdown" href="#" role="button">Log In <b class="caret"> </b></a>
              <div class="dropdown-menu"> 
-             <form style="margin: 0px" accept-charset="UTF-8" action="/sessions" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
+             <form style="margin: 0px" accept-charset="UTF-8" action="index.php" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
                    <input name="authenticity_token" type="hidden"></div>
                  <fieldset class='textbox' style="padding:10px">
                    <input style="margin-top: 8px" type="text" placeholder="Username" name="UserName" />
@@ -85,7 +85,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
                    <p>Remember Me <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" /> </p>
                    
                  </fieldset>
-                <a href="#"> <span class=label>Forgot password? </span></a>
+                <a href="#"> <span class=label>Forgot password? (Not yet implemented) </span></a>
                </form>
              </div>
              
@@ -186,4 +186,30 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
       
    </body>
 </html>
-<?php require("../../php/includes/signin.php"); ?>
+
+<?php 
+
+$link = mysql_connect("localhost","snov","sn4mlc5");
+mysql_select_db("snov");
+
+if(isset($_POST['login'])){
+
+  $Password = $_POST['Password'];
+  $UserName = $_POST['UserName'];
+
+  $check_user = "select * from registered_users where Password='$Password' AND UserName='$UserName'";
+
+  $run = mysql_query($check_user);
+
+  if(mysql_num_rows($run)>0) {
+
+    $_SESSION['UserName']=$UserName;
+    
+    echo "<script>window.open('src/register/welcome.php','_self')</script>";
+  }
+  else {
+    echo "<script>alert('UserName or Password is incorrect')</script>";
+  }
+}
+
+?>

@@ -58,7 +58,7 @@ session_start();
 								<input type="password" name="Password" id="password" class="form-control input-lg" placeholder="Password" tabindex="4">
 							</div>
 							<hr class="colorgraph">
-							<input type='submit' name='login' value='Log In' class="btn btn-primary btn-block btn-lg" tabindex="7"
+							<input type='submit' name='login' value='Log In' class="btn btn-primary btn-block btn-lg" tabindex="7">
 						</form>
 						<br>
 				<p style= "color: #FF0000">Not registered yet? <a href='register.php'>Register Here</a> </p>

@@ -1,5 +1,5 @@
 <?php 
- session_start(); 
+session_start(); 
 $link = mysql_connect("localhost","snov","sn4mlc5");
 mysql_select_db("snov");
 

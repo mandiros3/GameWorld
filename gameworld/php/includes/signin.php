@@ -1,5 +1,5 @@
 <?php 
-session_start(); 
+
 $link = mysql_connect("localhost","snov","sn4mlc5");
 mysql_select_db("snov");
 
@@ -16,7 +16,7 @@ if(isset($_POST['login'])){
 
     $_SESSION['UserName']=$UserName;
     
-    echo "<script>window.open('welcome.php','_self')</script>";
+    echo "<script>window.open('../../src/register/welcome.php','_self')</script>";
   }
   else {
     echo "<script>alert('UserName or Password is incorrect')</script>";

@@ -63,10 +63,10 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 										<a href="consoles/xbox.php">Xbox One</a>
 									</li>
 									<li class="disabled">
-										<a href="#">Xbox 360</a>
+										<a class="disabled" href="#">Xbox 360</a>
 									</li>
 									<li>
-										<a href="">Xbox</a>
+										<a class="disabled" href="">Xbox</a>
 									</li>
 
 								</ul>
@@ -86,13 +86,13 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 										<a href="consoles/ps4.php">PlayStation4</a>
 									</li>
 									<li>
-										<a href="">PlayStation3</a>
+										<a class="disabled" href="">PlayStation3</a>
 									</li>
 									<li>
-										<a href="">PlayStation2</a>
+										<a class="disabled" href="">PlayStation2</a>
 									</li>
 									<li>
-										<a href="">PlayStation1</a>
+										<a class="disabled" href="">PlayStation1</a>
 									</li>
 
 									<br>
@@ -113,13 +113,13 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 										<a href="consoles/wiu.php">Wii U</a>
 									</li>
 									<li>
-										<a href="">Wii</a>
+										<a class="disabled" href="">Wii</a>
 									</li>
 									<li>
-										<a href="">SNES</a>
+										<a class="disabled" href="">SNES</a>
 									</li>
 									<li>
-										<a href="">NES</a>
+										<a class="disabled" href="">NES</a>
 
 									</li>
 

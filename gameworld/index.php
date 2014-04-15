@@ -57,9 +57,9 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
           <ul class="nav navbar-nav">
              <li><a href="src/devices/devices.php">Devices</a></li>
             <li><a href="src/howto/howto.php">Set Up</a></li>
-            <li><a href="#contact">Forum</a></li>
+            <li><a class="disabled" href="#contact">Forum</a></li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <a class="disabled" href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Services</li>
                 <li><a href="#">Repair</a></li>
@@ -112,7 +112,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 
                         <div class="input-group search-bar">
                            <input type="text" class="form-control" id="tags">
-                           <span class="input-group-btn">
+                           <span class="input-group-btn disabled">
                               <button class="btn btn-danger" type="button"><span class="glyphicon glyphicon-search"></button>
                            </span>
                         </div>

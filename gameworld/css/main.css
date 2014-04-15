@@ -71,6 +71,12 @@ background-image: linear-gradient(to bottom, #8FBEE3 31%, #167DAD 97%);
 }
 
 
+.disabled {
+    pointer-events: none;
+}
+
+
+
 
 .sEngine {
 

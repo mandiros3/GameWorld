@@ -47,7 +47,7 @@ session_start();
 				<br>
 				<div class="row">
 					<div class="col-md-6 col-md-offset-3 sEngine">
-						<form role="form" method='post' action='../../php/includes/signin.php'>
+						<form role="form" method='post' action='login'>
 							<h2>Please Log In<small>.</small></h2>
 							<hr class="colorgraph">
 
@@ -98,5 +98,31 @@ session_start();
 	</body>
 </html>
 
-<?php require("../../php/includes/signin.php"); ?>
+<!-- //<?php require("../../php/includes/signin.php"); ?> -->
 
+<?php 
+
+$link = mysql_connect("localhost","snov","sn4mlc5");
+mysql_select_db("snov");
+
+if(isset($_POST['login'])){
+
+  $Password = $_POST['Password'];
+  $UserName = $_POST['UserName'];
+
+  $check_user = "select * from registered_users where Password='$Password' AND UserName='$UserName'";
+
+  $run = mysql_query($check_user);
+
+  if(mysql_num_rows($run)>0) {
+
+    $_SESSION['UserName']=$UserName;
+    
+    echo "<script>window.open('../../src/register/welcome.php','_self')</script>";
+  }
+  else {
+    echo "<script>alert('UserName or Password is incorrect')</script>";
+  }
+}
+
+?>

@@ -74,9 +74,9 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
              <!--To conserve space, the sign in button will use a dropdown menu-->
              
             <a  class="btn btn-success dropdown-toggle" 
-                data-toggle="dropdown" href="#" role="button">Log In <b class="caret"> </b></a>
+                data-toggle="dropdown" href="src/register/login.php" role="button">Log In <b class="caret"> </b></a>
              <div class="dropdown-menu"> 
-             <form style="margin: 0px" accept-charset="UTF-8" action="index.php" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
+             <form style="margin: 0px" accept-charset="UTF-8"  method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
                    <input name="authenticity_token" type="hidden"></div>
                  <fieldset class='textbox' style="padding:10px">
                    <input style="margin-top: 8px" type="text" placeholder="Username" name="UserName" />

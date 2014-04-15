@@ -31,10 +31,12 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 		<div class="wrapper">
 
-			<?php require("../../php/includes/navbar.php"); ?>
+			<?php
+			require ("../../php/includes/navbar.php");
+			?>
 
 			<!--content starts here-->
-            <br>
+			<br>
 			<div class="container">
 
 				<section class="row">
@@ -48,14 +50,39 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 
 				<section class="row devices-list " style="text-align:center;">
 					<div class="col-lg-4">
-						
-						<div class="panel panel-danger">
+
+						<div class="panel panel-danger" style="height:187px; width:360px;">
 							<div class="panel-heading">
-								<h3 class="panel-title">Consoles</h3>
+								<h3 class="panel-title"> <span class="label label-danger">Microsoft </span></h3>
 							</div>
 							<div class="panel-body">
 								<ul style="list-style-type: none;">
-									<a href="#" class="btn btn-xs btn-warning">Sony</a><br>
+
+									<li>
+										<a href="consoles/xbox.php">Xbox One</a>
+									</li>
+									<li>
+										<a href="">Xbox 360</a>
+									</li>
+									<li>
+										<a href="">Xbox</a>
+									</li>
+
+
+								</ul>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-lg-4">
+						<div class="panel panel-success" >
+							<div class="panel-heading">
+								<h3 class="panel-title"><span class="label label-success">Sony </span></h3>
+							</div>
+							<div class="panel-body">
+								<ul style="list-style-type: none;">
+
+					
 									<li>
 										<a href="consoles/ps4.php">PlayStation4</a>
 									</li>
@@ -68,30 +95,21 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 									<li>
 										<a href="">PlayStation1</a>
 									</li>
-									
-									
-									
-									<li class="divider"></li><hr><br>
-									
-									
-									
-									<a href="#" class="btn btn-xs btn-primary">Microsoft</a><br>
-									<li>
-										<a href="consoles/xbox.php">Xbox One</a>
-									</li>
-									<li>
-										<a href="">Xbox 360</a>
-									</li>
-									<li>
-										<a href="">Xbox</a>
-									</li>
-									
-									
-									<li class="divider"></li><hr><br>
-									
-									
-									<a href="#" class="btn btn-xs btn-danger">Nintendo
-									</a><br>										
+
+									<br>
+
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="panel panel-info" style="height:187px; width:360px;">
+							<div class="panel-heading">
+								<h3 class="panel-title"><span class="label label-info">Nintendo </span></h3>
+							</div>
+							<div class="panel-body">
+								<ul style="list-style-type: none;">
+
 									<li>
 										<a href="consoles/wiu.php">Wii U</a>
 									</li>
@@ -102,69 +120,9 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nove
 										<a href="">SNES</a>
 									</li>
 									<li>
-										<a href="">NES</a>										
-		
-									</li>
-									
-									<li class="divider"></li><hr><br>
-									
-									<a href="#" class="btn btn-xs btn-info">Sega
-									</a><br>
-									<li>
-										<a href="">Dreamcast</a>
-									</li>
-									<li>
-										<a href="">NeoGeo</a>
-									</li>
-									<li>
-										<a href="">NeogeoPocket</a>
-									</li>
-									<li>
-										<a href="">MAME</a>
-									</li>
+										<a href="">NES</a>
 
-								</ul>
-							</div>
-						</div>
-
-					</div>
-					<div class="col-lg-4">
-						<div class="panel panel-success">
-							<div class="panel-heading">
-								<h3 class="panel-title">Handhelds</h3>
-							</div>
-							<div class="panel-body">
-								<ul>
-
-									
-										<a href="">Nintendo DS</a> <br>
-									
-										<a href="">GameBoy</a><br>
-								
-										<a href="#">IOS</a><br>
-								
-										<a href="#">Android</a><br>
-									
-
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<div class="panel panel-info" style="height:166px; width:360px;">
-							<div class="panel-heading">
-								<h3 class="panel-title">PC</h3>
-							</div>
-							<div class="panel-body">
-								<ul>
-
-									
-										<a href="#">Windows</a> <br>
-								
-										<a href="#">Mac</a><br>
-								
-										<a href="#">Linux</a><br>
-							
+									</li>
 
 								</ul>
 							</div>

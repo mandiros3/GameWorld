@@ -49,10 +49,7 @@ if(!$_SESSION['UserName']){
    }
 </style>
 
-<body>
-
- <!--     Navigation bar starts here. -->
-            
+<body>    
     	<?php require("../../php/includes/navbar.php"); ?>
 
 <b><br>Welcome<br></b>

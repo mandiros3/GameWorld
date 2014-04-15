@@ -52,7 +52,9 @@ if(!$_SESSION['UserName']){
 					
 					<div class="col-lg-9">
 						
-						<p> Under development</p>
+						<h2> Under development</h2>
+						
+						<a href='logout.php'>Logout Here</a></h3>
 					</div>
 						
 				</section>

@@ -57,9 +57,9 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
           <ul class="nav navbar-nav">
              <li><a href="src/devices/devices.php">Devices</a></li>
             <li><a href="src/howto/howto.php">Set Up</a></li>
-            <li><a class="disabled" href="#contact">Forum</a></li>
+            <li><a href="#contact">Forum</a></li>
             <li class="dropdown">
-              <a class="disabled" href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li class="dropdown-header">Services</li>
                 <li><a href="#">Repair</a></li>
@@ -73,23 +73,23 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
           
              <!--To conserve space, the sign in button will use a dropdown menu-->
              
-            <!-- <a  class="btn btn-success dropdown-toggle" 
-                data-toggle="dropdown" href="src/register/login.php" role="button">Log In <b class="caret"> </b></a>
+            <a  class="btn btn-success dropdown-toggle" 
+                data-toggle="dropdown" href="#" role="button">Sign in <b class="caret"> </b></a>
              <div class="dropdown-menu"> 
-             <form style="margin: 0px" accept-charset="UTF-8"  method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
+             <form style="margin: 0px" accept-charset="UTF-8" action="/sessions" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden"  />
                    <input name="authenticity_token" type="hidden"></div>
                  <fieldset class='textbox' style="padding:10px">
-                   <input style="margin-top: 8px" type="text" placeholder="Username" name="UserName" />
-                   <input style="margin-top: 8px" type="password" placeholder="Passsword" name="Password" />
+                   <input style="margin-top: 8px" type="text" placeholder="Username" />
+                   <input style="margin-top: 8px" type="password" placeholder="Passsword" />
                    <input class="btn-primary" name="commit" type="submit" value="Log In" />
                    <p>Remember Me <input id="user_remember_me" style="float: left; margin-right: 10px;" type="checkbox" name="user[remember_me]" value="1" /> </p>
                    
                  </fieldset>
-                <a href="#"> <span class=label>Forgot password? (Not yet implemented) </span></a>
+                <a href="#"> <span class=label>Forgot password? </span></a>
                </form>
-             </div> -->
+             </div>
              
-              <a  class="btn btn-success" href="src/register/login.php" role="button">Log In</a>
+             
               <a  class="btn btn-warning" href="src/register/register.php" role="button">Register</a>
           </div>
         </div><!--/.navbar-collapse -->
@@ -112,8 +112,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 
                         <div class="input-group search-bar">
                            <input type="text" class="form-control" id="tags">
-                           <span class="input-group-btn disabled">
-                              <button class="btn btn-danger" type="button"><span class="glyphicon glyphicon-search"></button>
+                           <span class="input-group-btn">
+                              <button class="btn btn-danger" type="button">Go!</button>
                            </span>
                         </div>
 
@@ -136,26 +136,26 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
                <div class="col-lg-12">
 
                   <h1 style='text-align: center; color:red;'>What's hot</h1>
-<hr class="featurette-divider">
+
                </div>
 
 
                <div class="col-lg-4">
 
-                  <h2 class="hot">Xbox One</h2>
+                  <h2>Xbox One</h2>
 
                   <img src="img/index/xbox.jpg" alt="..." class="img-rounded">
                   <p><a class="btn btn-info" href="src/devices/consoles/xbox.php">See more &raquo;</a></p>
                </div>
                <div class="col-lg-4">
-                  <h2 class="hot">PS4</h2>
+                  <h2>PS4</h2>
                   <img src="img/index/ps4.jpg" alt="..." class="img-rounded">
-                  <p class="chaud"><a class="btn btn-info" href="src/devices/consoles/ps4.php">See more &raquo;</a></p>
+                  <p><a class="btn btn-info" href="#">See more &raquo;</a></p>
                </div>
                <div class="col-lg-4">
-                  <h2 class="hot" >Wii U</h2>
+                  <h2>Wii U</h2>
                   <img src="img/index/wiu.jpg" alt="..." class="img-rounded">
-                  <p style ="text-align: right;"><a class="btn btn-info" href="src/devices/consoles/wiu.php">See more  &raquo;</a></p>
+                  <p><a class="btn btn-info" href="#">See more  &raquo;</a></p>
                </div>
 
             </section> <!--well-->
@@ -186,30 +186,3 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
       
    </body>
 </html>
-
-<?php 
-
-$link = mysql_connect("localhost","snov","sn4mlc5");
-mysql_select_db("snov");
-
-if(isset($_POST['login'])){
-
-  $Password = $_POST['Password'];
-  $UserName = $_POST['UserName'];
-
-  $check_user = "select * from registered_users where Password='$Password' AND UserName='$UserName'";
-
-  $run = mysql_query($check_user);
-
-  if(mysql_num_rows($run)>0) {
-
-    $_SESSION['UserName']=$UserName;
-    
-    echo "<script>window.open('src/register/welcome.php','_self')</script>";
-  }
-  else {
-    echo "<script>alert('UserName or Password is incorrect')</script>";
-  }
-}
-
-?>

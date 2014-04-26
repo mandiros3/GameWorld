@@ -16,9 +16,9 @@
 		
 		//$base= 'http://www.cs.uml.edu/~amilhomm/gameworld'; 
 		
-		$base ='http://weblab.cs.uml.edu/~snov/gameworld' ;
+		$base ='http://weblab.cs.uml.edu/~bheng/gameworld' ;
 
-//$base ='http://localhost';
+
 
 echo"<!--     Navigation bar starts here. -->
             
@@ -40,9 +40,9 @@ echo"<!--     Navigation bar starts here. -->
           <ul class='nav navbar-nav'>
             <li><a href='$base/src/devices/devices.php'>Devices</a></li>
             <li><a href='$base/src/howto/howto.php'>Set Up</a></li>
-            <li><a class='disabled' href='#contact'>Forum</a></li>
+            <li><a href='#contact'>Forum</a></li>
             <li class='dropdown'>
-              <a class='disabled' href='#' class='dropdown-toggle' data-toggle='dropdown'>Services <b class='caret'></b></a>
+              <a href='#' class='dropdown-toggle' data-toggle='dropdown'>Services <b class='caret'></b></a>
               <ul class='dropdown-menu'>
                 <li class='dropdown-header'>Services</li>
                 <li><a href='#'>Repair</a></li>

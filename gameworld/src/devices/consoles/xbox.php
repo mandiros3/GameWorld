@@ -35,10 +35,10 @@ and open the template in the editor.
 							<a href="#tab1" data-toggle="tab">Overview</a>
 						</li>
 						<li>
-							<a class='disabled' href="#tab2" data-toggle="tab">Full Specs</a>
+							<a href="#tab2" data-toggle="tab">Full Specs</a>
 						</li>
 						<li>
-							<a class='disabled' href="#tab3" data-toggle="tab">Reviews</a>
+							<a href="#tab3" data-toggle="tab">Reviews</a>
 						</li>
 					</ul>
 			<!-- The contents of the tabs -->
@@ -53,13 +53,13 @@ and open the template in the editor.
 								</div>
 								<div class="panel-body">
 									<p>
-									Content to be added
+										...
 									</p>
 								</div>
 
 								<!-- Table -->
 								<table class="table">
-									
+									<a href="http://www.theverge.com/2013/11/20/5117320/microsoft-xbox-one-review"><p>The Verge</p></a>
 									
 								</table>
 							</div>

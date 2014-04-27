@@ -19,9 +19,7 @@
 
   /*  01 - Global Elements -------------------------------------------------- */
 /*------------------------------------------------------------------- */
- html {
-    overflow-y: scroll;
-}
+ 
    
 body {
 			padding-top: 50px;
@@ -34,7 +32,7 @@ body {
 }
 .navbar { 
 font-size: 20px;
-min-height: 63px;
+
 
 }
 
@@ -71,12 +69,6 @@ background-image: linear-gradient(to bottom, #8FBEE3 31%, #167DAD 97%);
 }
 
 
-.disabled {
-    pointer-events: none;
-}
-
-
-
 
 .sEngine {
 
@@ -88,19 +80,6 @@ width: 550px;
 
 margin-left:100px;
 margin-right:100px;
-}
-
-.hot {
-	font-weight:bold;
-	text-align:center;
-	
-	
-}
-
-.chaud {
-	text-align:center;
-		
-	
 }
 
 

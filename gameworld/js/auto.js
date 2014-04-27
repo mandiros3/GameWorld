@@ -5,28 +5,56 @@
  */
 
 
-            $(function() {
+        /*    $(function() {
                 var availableTags = [
-                    "MAME",
-                    "NES",
-                    "NeoGeo",
-                    "NeogeoPocket",
-                    "PlayStation (1st gen.)",
-                    "PlayStation 2",
-                    "PlayStation 3",
                     "PlayStation 4",
 					"PS4",
-                    "SNES",
+					"Sony",
                     "Xbox One",
-                    "Xbox 360",
-                    "Xbox (1st gen.)",
+                    "Microsoft",
                     "Wii U",
                     "Wii",
-					"Nintendo",
-                    
+					"Nintendo"    
                 ];
+                
+                
                 $("#tags").autocomplete({
                     source: availableTags
                 });
             });
   
+
+*/
+
+var source = [ { value: "src/devices/consoles/ps4.php",
+                 label:"PlayStation 4"
+               },
+               { value: "src/devices/consoles/ps4.php",
+                 label:"PS4"
+               },
+               { value: "src/devices/consoles/ps4.php",
+                 label:"Sony"
+               },
+                { value: "src/devices/consoles/xbox.php",
+                 label:"Xbox One"
+               },
+               { value: "src/devices/consoles/xbox.php",
+                 label:"Microsoft"
+               },
+                { value: "src/devices/consoles/wiu.php",
+                 label:"Nintendo"
+              },
+              { value: "src/devices/consoles/wiu.php",
+                 label:"Wii U"
+               }
+               
+             ];
+
+    $("input#tags").autocomplete({
+        source: source,
+        select: function( event, ui ) { 
+            window.location.href = ui.item.value;
+        }
+    });
+
+

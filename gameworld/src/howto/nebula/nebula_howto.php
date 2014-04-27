@@ -40,96 +40,83 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 
 			<?php
 			include '../../../php/includes/navbar.php'; ?>
-		
-		
-			<p id="title">
-				Nebula
-			</p>
-			<hr>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-						<!-- ===== COVER FLOW ===== -->
-						<div id="contentFlow" class="ContentFlow">
-							<!-- should be place before flow so that contained images will be loaded first -->
-							<div class="loadIndicator">
-								<div class="indicator"></div>
-							</div>
-							<div class="flow">
-								<div class="item">
-									<img class="content" src="../../../img/nebula/1.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic0: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/2.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/3.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic2: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/4.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/5.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic0: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/6.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/7.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic2: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/8.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/9.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic0: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nebula/10.jpg" class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="globalCaption"></div>
-								<div class="scrollbar">
-									<div class="slider">
-										<div class="position"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-				<hr>
+
+<!-- Start Title of the page + icon 	 -->
+<div class="container">
+	<div class="row destacados">
+		<div class="col-md-4">
+    		<div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+
+		
+			<div>
+			<a href="http://nebula.emulatronia.com">
+				<img src="../../../img/nebula/icon.jpg" alt="Texto Alternativo" class="img-circle img-thumbnail">
+				<h1>
+				Nebula
+			    </h1>
+			</a>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+
+			</div>
+		</div>
+	</div>
+</div>
+			
+<hr>
+
+<!-- Start Carousel Effect  -->
+
+<div class="container">
+	<div class="row">
+		<!-- Carousel -->
+    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<!-- Indicators --> 
+			<ol class="carousel-indicators">
+			  	<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+
+			<div class="carousel-inner">
+			    <div class="item active">
+			    	<img src="../../../img/nebula/1.jpg" alt="First slide">
+                 
+                    
+			    </div>
+			    <div class="item">
+			    	<img src="../../../img/nebula/2.jpg" alt="Second slide">
+			    	
+                    <div class="header-text hidden-xs">
+                                           </div>
+			    </div>
+			    <div class="item">
+			    	<img src="../../../img/nebula/4.jpg" alt="Third slide">
+			    	
+                    <div class="header-text hidden-xs">
+                                           </div>
+			    </div>
+			</div>
+			
+			<a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+		    	<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+		    	<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
+</div>
+
+<!-- Start Carousel Effect  -->				<hr>
 				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 				<div class="container">
 				<div class="row">
@@ -177,6 +164,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 				</div>
 			</div>
 		</div>
+		
+		<hr>
 
 		<br>
 		<div class="container">
@@ -199,51 +188,13 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 
 								</ul> </span>
 						</div>
+						
+						
 						<div class="panel-body">
 							<div class="tab-content">
 								<div class="tab-pane active" id="tab1">
 									<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 									<!-- ===== Steps ===== -->
-									<br>
-									<br>
-									<br>
-									<br>
-									<div class="stepwizard">
-										<div class="stepwizard-row">
-											<div class="stepwizard-step">
-												<button type="button" class="btn btn-primary btn-circle">
-													1
-												</button>
-												<p>
-													Emulator
-												</p>
-											</div>
-											<div class="stepwizard-step">
-												<button type="button" class="btn btn-default btn-circle">
-													2
-												</button>
-												<p>
-													Roms
-												</p>
-											</div>
-											<div class="stepwizard-step">
-												<button type="button" class="btn btn-default btn-circle">
-													3
-												</button>
-												<p>
-													Controller												</p>
-											</div>
-											
-										</div>
-									</div>
-									<br>
-									<br>
-									<br>
-									<br>
-									<hr>
-									<br>
-									<br>
-									<br>
 									<br>
 
 									<p>
@@ -257,14 +208,13 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 										· Install Nebula
 									</p>
 									
-									<br>
+							
 									<br>
 						
 									<hr>
 							
 									<br>
-									<br>
-
+							
 									<p>
 										<b>2. Get The Roms</b>
 									</p>
@@ -282,13 +232,11 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									</p>
 
 									<br>
-									<br>
 						
 									<hr>
 							
 									<br>
-									<br>
-
+									
 									<p>
 										<b>3. Place the downloaded roms in the right place as well as bio</b>
 									</p>
@@ -305,13 +253,10 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 										o <b>IMPORTANT</b>: Neogeo.zip &amp; PGM.zip are bio zips and they must stay inside <b>ROM</b> Folder also,otherwise You Will Get Error
 									</p>
 									<br>
-									<br>
 						
 									<hr>
 							
 									<br>
-									<br>
-
 									<p>
 										<b>4. Configure the Controller</b>
 									</p>

@@ -278,6 +278,23 @@ copy
 
 
 
+			.destacados{
+			    padding: 20px 0;
+				text-align: center;
+			}
+			.destacados > div > div{
+				padding: 10px;
+				border: 1px solid transparent;
+				border-radius: 4px;
+				transition: 0.2s;
+			}
+			.destacados > div:hover > div{
+				margin-top: -10px;
+				background: rgba(200, 200, 200, 0.1);
+				transition: 0.5s;
+			}
+
+
 
 
 

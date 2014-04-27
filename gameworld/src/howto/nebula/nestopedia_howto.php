@@ -21,13 +21,43 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 		<!--  custom CSS here -->
 		<link rel="stylesheet" href="../../../css/main.css">
 		
-		 <!-- IMPORTANT:  PUT ALL JAVASCRIPT TAGS AT THE BOTTOM -->
-		
-		<script style="text/javascript">
-			var cf = new ContentFlow('contentFlow', {
-				reflectionColor : "#000000"
-			});
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+	    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+		 
+		 
+<!-- 		 Draggable Image -->
+		 <style type="text/css">
+			
+			#Bunlong {
+			
+			/* padding-left: 170px; */
+			position: absolute;
+			top: 160px;
+			left: 250px;
+			z-index: 99;
+			
+			}
+	     </style>
+	     <script>
+		$(function() {
+		$( "#Bunlong" ).draggable();
+		});
 		</script>
+		
+		
+		<div id="draggable" class="ui-widget-content">
+		
+			<div id="Bunlong">
+			<a href="http://nestopia.sourceforge.net">
+				<img src="../../../img/nes/icon.jpg" alt="Texto Alternativo" class="img-circle img-thumbnail">
+			</a>
+			</div>
+		
+		</div>
+		<!--  End of Draggable Image -->
+		
+		
+		
 
 		<!-- Google Font -->
 		<link href='http://fonts.googleapis.com/css?family=Parisienne|Josefin+Sans|Didact+Gothic|Cinzel' rel='stylesheet' type='text/css'>
@@ -41,94 +71,39 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 			<?php
 			include '../../../php/includes/navbar.php'; ?>
 		
-		
-			<p id="title">
-				Nestopia
-			</p>
-			<hr>
-
-			<!--
+<!-- Start Title of the page + icon 	 -->
+<!--
 <div class="container">
-				<div class="row">
-					<div class="col-lg-12">
-						
-						<div id="contentFlow" class="ContentFlow">
+	<div class="row destacados">
+		<div class="col-md-4">
+    		<div>
+			</div>
+		</div>
 
-							<div class="loadIndicator">
-								<div class="indicator"></div>
-							</div>
-							<div class="flow">
-								<div class="item">
-									<img class="content" src="../../../img/nes/1.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic0: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/2.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/3.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic2: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/4.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/5.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic0: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/6.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/7.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic2: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/8.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/9.jpg"class="img-rounded"/>
-									<div class="caption">
-										pic0: some stripes
-									</div>
-								</div>
-								<div class="item">
-									<img class="content" src="../../../img/nes/10.jpg" class="img-rounded"/>
-									<div class="caption">
-										pic1: some stripes
-									</div>
-								</div>
-								<div class="globalCaption"></div>
-								<div class="scrollbar">
-									<div class="slider">
-										<div class="position"></div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+		<div class="col-md-4">
+
+		
+			<div>
+			<a href="http://nebula.emulatronia.com">
+				<img src="../../../img/nes/icon.jpg" alt="Texto Alternativo" class="img-circle img-thumbnail">
+				<h1>
+				Nestopia
+			    </h1>
+			</a>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+
+			</div>
+		</div>
+	</div>
+</div>
 -->
+		
+
+<br><br><!-- Start Carousel Effect  -->
 
 <div class="container">
 	<div class="row">
@@ -171,9 +146,10 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 	</div>
 </div>
 
+<!-- Start Carousel Effect  -->
 
-				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
-				<hr>
+
+				<br><br>
 				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 				<div class="container">
 				<div class="row">
@@ -249,11 +225,6 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 									<!-- ===== Steps ===== -->
 									<br>
-									<br>
-									<br>
-									<br>
-									
-
 									<p>
 										<b>1.Get The Emulator</b>
 									</p>
@@ -265,13 +236,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 										· Install Nestopia
 									</p>
 									
-									<br>
-									<br>
-						
-									<hr>
-							
-									<br>
-									<br>
+									<br><hr><br>
+									
 
 									<p>
 										<b>2. Get The Roms</b>
@@ -289,13 +255,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 										Please only download the roms that you own.
 									</p>
 
-									<br>
-									<br>
-						
-									<hr>
-							
-									<br>
-									<br>
+									<br><hr><br>
 
 									<p>
 										<b>3. Load the downloaded roms </b>
@@ -306,13 +266,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 									</p>
 
 									
-									<br>
-									<br>
-						
-									<hr>
-							
-									<br>
-									<br>
+									<br><hr><br>
 
 									<p>
 										<b>4. Configure the Controller</b>

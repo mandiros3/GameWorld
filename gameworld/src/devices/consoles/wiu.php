@@ -20,7 +20,7 @@ and open the template in the editor.
 		<?php
 		include '../../../php/includes/navbar.php';
 		?><
-		!--the page is divided into two columns 10 and 2 units wide -->
+		<!--the page is divided into two columns 10 and 2 units wide -->
 
 		<div class="container device-page">
 			<section class="row">

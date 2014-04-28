@@ -82,6 +82,7 @@ background-image: linear-gradient(to bottom, #8FBEE3 31%, #167DAD 97%);
 
 width: 550px;
 
+
 }
 
 .search-bar {
@@ -101,6 +102,11 @@ margin-right:100px;
 	text-align:center;
 		
 	
+}
+/* font size of the input box index */
+input[type="text"]
+{
+    font-size:22px;
 }
 
 

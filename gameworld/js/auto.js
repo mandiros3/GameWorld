@@ -54,6 +54,10 @@ var source = [ { value: "src/devices/consoles/ps4.php",
         source: source,
         select: function( event, ui ) { 
             window.location.href = ui.item.value;
+            var e = jQuery.Event("keydown");
+         e.which = 13;
+         $("search").trigger(e);
+
         }
     });
 

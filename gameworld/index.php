@@ -100,7 +100,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
          <div class="jumbotron" id="header">
             <div class="container" >
                <h1>Let's play some games</h1>
-               <p>Get your news, tutorials and more</p>
+               <p>Get your news, tutorials and more.</p>
 
                <div class="container sEngine">
                   <section class="row">
@@ -112,8 +112,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 
                         <div class="input-group search-bar">
                            <input type="text" class="form-control" id="tags">
-                           <span class="input-group-btn disabled">
-                              <button class="btn btn-danger" type="button"><span class="glyphicon glyphicon-search"></button>
+                           <span class="input-group-btn">
+                              <button class="btn btn-danger" id="search" type="button"><span class="glyphicon glyphicon-search"></button>
                            </span>
                         </div>
 

@@ -100,7 +100,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
          <div class="jumbotron" id="header">
             <div class="container" >
                <h1>Let's play some games</h1>
-               <p>Don't look elsewhere! You have reached the most fantastic place on the web.</p>
+               <p>Get your news, tutorials and more</p>
 
                <div class="container sEngine">
                   <section class="row">

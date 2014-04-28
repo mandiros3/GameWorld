@@ -41,6 +41,8 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 <?php require("../../php/includes/navbar.php"); ?>
 			<div class="container">
 
+<!-- pretty straight forward form, with a few input boxes and a register button -->
+
 				<div class="row">
 
 					<div class="col-xs-12 col-sm-8 col-md-6 col-sm-offset-2 col-md-offset-3">

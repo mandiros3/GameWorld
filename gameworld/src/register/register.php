@@ -80,12 +80,10 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov
 
 							<hr class="colorgraph">
 							<div class="row">
-								<div class="col-xs-12 col-md-6">
+								<div class="col-xs-12 col-md-12">
 									<input type='submit' name='submit' value='Register' class="btn btn-primary btn-block btn-lg" tabindex="7">
 								</div>
-								<div class="col-xs-12 col-md-6">
-									<a href='login.php' class="btn btn-success btn-block btn-lg">Log In</a>
-								</div>
+								
 							</div>
 						</form>
 					</div>

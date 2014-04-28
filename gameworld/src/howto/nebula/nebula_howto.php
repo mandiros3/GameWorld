@@ -12,25 +12,52 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<title>How To</title>
 		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width">
+		<meta name="viewport" content="width=device-width"> 
 
 		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="../../../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../../../css/bootstrap-theme.min.css">
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+	    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 		<!--  custom CSS here -->
 		<link rel="stylesheet" href="../../../css/main.css">
-		
-		 <!-- IMPORTANT:  PUT ALL JAVASCRIPT TAGS AT THE BOTTOM -->
-		
-		<script style="text/javascript">
-			var cf = new ContentFlow('contentFlow', {
-				reflectionColor : "#000000"
-			});
-		</script>
 
 		<!-- Google Font -->
 		<link href='http://fonts.googleapis.com/css?family=Parisienne|Josefin+Sans|Didact+Gothic|Cinzel' rel='stylesheet' type='text/css'>
+		
+		<!-- 		 Draggable Image -->
+		 <style type="text/css">
+			
+			#Bunlong {
+			
+			/* padding-left: 170px; */
+			position: absolute;
+			top: 160px;
+			left: 250px;
+			z-index: 99;
+			
+			}
+	     </style>
+	     <script>
+		$(function() {
+		$( "#Bunlong" ).draggable();
+		});
+		</script>
+		
+		
+		<div id="draggable" class="ui-widget-content">
+		
+			<div id="Bunlong">
+			<a href="http://nebula.emulatronia.com">
+				<img src="../../../img/nebula/icon.jpg" alt="Texto Alternativo" class="img-circle img-thumbnail">
+			</a>
+			</div>
+		
+		</div>
+		<!--  End of Draggable Image -->
+
+		
 		
 	</head>
 
@@ -40,38 +67,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 
 			<?php
 			include '../../../php/includes/navbar.php'; ?>
-
-
-<!-- Start Title of the page + icon 	 -->
-<div class="container">
-	<div class="row destacados">
-		<div class="col-md-4">
-    		<div>
-			</div>
-		</div>
-
-		<div class="col-md-4">
-
-		
-			<div>
-			<a href="http://nebula.emulatronia.com">
-				<img src="../../../img/nebula/icon.jpg" alt="Texto Alternativo" class="img-circle img-thumbnail">
-				<h1>
-				Nebula
-			    </h1>
-			</a>
-			</div>
-		</div>
-
-		<div class="col-md-4">
-			<div>
-
-			</div>
-		</div>
-	</div>
-</div>
-			
-<hr>
+<br>
 
 <!-- Start Carousel Effect  -->
 
@@ -116,14 +112,14 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 	</div>
 </div>
 
-<!-- Start Carousel Effect  -->				<hr>
+<!-- Start Carousel Effect  -->				<br>
 				<!-- ------------------------------------------------------------------------------------------------------------------------------------------------------ -->
 				<div class="container">
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="panel panel-primary">
 							<div class="panel-heading">
-								<h3 class="panel-title">Requirements</h3>
+								<h3>Requirements</h3>
 								
 							</div>
 				
@@ -132,7 +128,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 					<div class="row">
 						<div class="col-md-4">
 							<div class="mag">
-								<h2 class="stepTitle"> Computers </h2>
+								<h2> Computers </h2>
 								<br>
 								<a href="http://bestbuy.com/" class="btn btn-default btn-success btn-xs active" target="_blank"> Link</a>
 
@@ -142,7 +138,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 						<!--/span-->
 						<div class="col-md-4">
 							<div class="mag">
-								<h2 class="stepTitle"> Controller </h2>
+								<h2> Controller </h2>
 								<br />
 								<a href="http://www.ebay.com/itm/black-twin-shock-game-controller-joypad-for-sony-playstation-2-ps2-/111217527330?pt=US_Video_Game_Controllers&hash=item19e514ca22" class="btn btn-default btn-success btn-xs active" target="_blank" > Link</a>
 								<img data-toggle="magnify" src="../../../img/prereq/2.png" alt="">
@@ -151,7 +147,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 						<!--/span-->
 						<div class="col-md-4">
 							<div class="mag">
-								<h2 class="stepTitle"> Adapters </h2>
+								<h2> Adapters </h2>
 								<br>
 								<a href="http://www.ebay.com/itm/PS1-PS2-PSX-to-PC-USB-Dual-Controller-Adapter-Converter-/170854914674?pt=US_Video_Game_Cables_Adapters&hash=item27c7bf1a72" class="btn btn-default btn-success btn-xs active" target="_blank"> Link</a>
 								<img data-toggle="magnify" src="../../../img/prereq/3.png" alt="">
@@ -165,7 +161,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 			</div>
 		</div>
 		
-		<hr>
+		<br><br>
 
 		<br>
 		<div class="container">

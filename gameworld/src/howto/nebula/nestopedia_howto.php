@@ -165,7 +165,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 					<div class="row">
 						<div class="col-md-4">
 							<div class="mag">
-								<h2 class="stepTitle"> Computers </h2>
+								<h2 > Computers </h2>
 								<br>
 								<a href="http://bestbuy.com/" class="btn btn-default btn-success btn-xs active" target="_blank"> Link</a>
 
@@ -175,7 +175,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 						<!--/span-->
 						<div class="col-md-4">
 							<div class="mag">
-								<h2 class="stepTitle"> Controller </h2>
+								<h2> Controller </h2>
 								<br />
 								<a href="http://www.ebay.com/itm/black-twin-shock-game-controller-joypad-for-sony-playstation-2-ps2-/111217527330?pt=US_Video_Game_Controllers&hash=item19e514ca22" class="btn btn-default btn-success btn-xs active" target="_blank" > Link</a>
 								<img data-toggle="magnify" src="../../../img/prereq/2.png" alt="">
@@ -184,7 +184,7 @@ authors: Andi Milhomme, Sybunlong Heng, Sereyrath Nov -
 						<!--/span-->
 						<div class="col-md-4">
 							<div class="mag">
-								<h2 class="stepTitle"> Adapters </h2>
+								<h2> Adapters </h2>
 								<br>
 								<a href="http://www.ebay.com/itm/PS1-PS2-PSX-to-PC-USB-Dual-Controller-Adapter-Converter-/170854914674?pt=US_Video_Game_Cables_Adapters&hash=item27c7bf1a72" class="btn btn-default btn-success btn-xs active" target="_blank"> Link</a>
 								<img data-toggle="magnify" src="../../../img/prereq/3.png" alt="">

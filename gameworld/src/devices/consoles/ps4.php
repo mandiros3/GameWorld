@@ -23,7 +23,7 @@ and open the template in the editor.
     <!--the page is divided into two columns 10 and 2 units wide -->
 
     <div class="container device-page">
-        <section class="row">
+        <section class="row ">
             <div class="col-lg-8">
                 <h1 class="main-title">Sony PlayStation 4</h1><img src=
                 "../../../img/ps4/ps4.jpg"> 
@@ -45,20 +45,20 @@ and open the template in the editor.
                             <!-- Default panel contents -->
 
                             <div class="panel-heading">
-                                The bar is raised.
+                               <strong> The bar is raised.</strong> 
                             </div>
 
-                            <div class="panel-body">
-                                <p>In the seven years since the introduction of
+                            <div class="panel-body ">
+                                <p class="text-font">In the seven years since the introduction of
                                 the PlayStation 3, we've seen our gaming
                                 consoles transform into living-room hubs
                                 through constant evolution and software
-                                updates. Those updates weren't always smooth –
+                                updates. Those updates weren't always smooth,
                                 though on PS3, they were always happening, but
                                 it's easy to see just how far the platform has
                                 come.</p>
 
-                                <p>Meanwhile, the designers of the PlayStation
+                                <p class="text-font">Meanwhile, the designers of the PlayStation
                                 4 were taking notes and designing a console
                                 that, feature by feature, sought to address the
                                 failings of its predecessor. The PS3 was
@@ -77,7 +77,7 @@ and open the template in the editor.
                                 more aggressive price, asking $100 less than
                                 the competition this time around.</p>
 
-                                <p>While Sony in 2006 was focused on driving
+                                <p class="text-font">While Sony in 2006 was focused on driving
                                 adoption of the Blu-ray standard, envisioning
                                 another home media boom that never quite
                                 materialized, Sony in 2013 has no such
@@ -86,7 +86,7 @@ and open the template in the editor.
                                 mandate. It's a gaming console, a clear message
                                 that Sony has been quick to repeat.</p>
 
-                                <p>That focus has resulted in a console that's
+                                <p class="text-font">That focus has resulted in a console that's
                                 better positioned than the PlayStation 3 was in
                                 2006 to compete in an expanding turf war for
                                 the living room. But that same focus has also
@@ -101,23 +101,15 @@ and open the template in the editor.
                             <!-- Default panel contents -->
 
                             <div class="panel-heading">
-                                Tech Specs
+                                <strong>Tech Specs</strong>
                             </div>
 
                             <div class="panel-body">
-                                <table>
-                                    <tbody>
-                                        <tr>
-                                            <th>Alias</th>
-
-                                            <th>PS4</th>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                
 
                                 <h3>Hardware</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Width</th>
@@ -153,7 +145,7 @@ and open the template in the editor.
 
                                 <h3>Performance</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>CPU brand</th>
@@ -195,7 +187,7 @@ and open the template in the editor.
 
                                 <h3>Connectivity</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Wi-Fi</th>
@@ -225,7 +217,7 @@ and open the template in the editor.
 
                                 <h3>Audio / Video</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Supported resolutions</th>
@@ -243,7 +235,7 @@ and open the template in the editor.
 
                                 <h3>Ports</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Audio / Video output</th>
@@ -280,7 +272,7 @@ and open the template in the editor.
 
                                 <h3>Storage</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Internal storage</th>
@@ -304,7 +296,7 @@ and open the template in the editor.
 
                                 <h3>Software</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Game media</th>
@@ -328,7 +320,7 @@ and open the template in the editor.
 
                                 <h3>Power</h3>
 
-                                <table>
+                                <table class= "table table-condensed">
                                     <tbody>
                                         <tr>
                                             <th>Power supply</th>
@@ -346,38 +338,42 @@ and open the template in the editor.
                             <!-- Default panel contents -->
 
                             <div class="panel-heading">
-                                Advantages and inconveniences
+                                <strong>Advantages and inconveniences</strong>
                             </div>
 
-                            <div class="panel-body"></div>
-
-                            <div>
-                                <h3>Pros</h3>
+                            <div class="panel-body">
+                            	<h3 style="color:green;"><span class="glyphicon glyphicon-arrow-up"></span>Pros</h3>
 
                                 <ul>
-                                    <li><span>Fast performance</span></li>
+                                    <li>Fast performance</li>
 
-                                    <li><span>Great DualShock 4
-                                    controller</span></li>
+                                    <li>Great DualShock 4
+                                    controller</li>
 
-                                    <li><span>Massively improved UI</span></li>
+                                    <li>Massively improved UI</li>
                                 </ul>
-                            </div>
+                           
 
-                            <div>
-                                <h3>Cons</h3>
+                        
+                                <h3  style="color:red;"><span class="glyphicon glyphicon-arrow-down"></span> Cons</h3>
 
                                 <ul>
-                                    <li><span>Needs better PS4
-                                    exclusives</span></li>
+                                    <li>Needs better PS4
+                                    exclusives</li>
 
-                                    <li><span>Lacks media streaming
-                                    support</span></li>
+                                    <li>Lacks media streaming
+                                    support</li>
 
-                                    <li><span>Mandatory game
-                                    installs</span></li>
+                                    <li>Mandatory game
+                                    installs</li>
                                 </ul>
+                            	
+                            	
                             </div>
+
+                           
+                                
+                           
                         </div>
                     </div>
                 </div><!--tab contents -->
@@ -385,9 +381,11 @@ and open the template in the editor.
             <!-- Side bar, with useful information about the device -->
 
             <div class="col-lg-4">
+                 <div class="side-background">
                 <h2 class="side-title">What's new?</h2>
-
-                <p>The battle for the living room is a cold war no more. The
+     
+      
+                <p class="text-font" style="margin:4px;">The battle for the living room is a cold war no more. The
                 Sony PlayStation 4 has gone thermonuclear, launching on store
                 shelves November 15. Housing some of the most powerful hardware
                 ever to sit before a television, Sony's new console is two
@@ -407,16 +405,17 @@ and open the template in the editor.
 
                     <li>Has USB 3.0 and a Blu-ray drive just like the XBox</li>
 
-                    <li style="color:red;">Will not be backwards compatible
+                    <li>Will not be backwards compatible
                     with PS3 or original PlayStation games.</li>
                 </ul>
+                </div>
             </div>
         </section>
     </div><!-- Container -->
     <hr>
 
     <footer>
-        <p>© GameWorld 2014</p>
+        <p>&copy; GameWorld 2014</p>
     </footer>
     <!--Javascript dependencies and other libraries such as jquery UI-->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script><script>
